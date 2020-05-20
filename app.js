@@ -1,7 +1,7 @@
-const express = require('express')
-const app = express()
-const ejs = require('ejs')
-const port = 3000
+const express = require('express');
+const app = express();
+const ejs = require('ejs');
+const port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 

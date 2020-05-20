@@ -4,6 +4,7 @@
   "description": "Tapin website for GDL",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon app.js"
   },
   "repository": {
@@ -22,5 +23,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "10.15.3"
   }
 }
