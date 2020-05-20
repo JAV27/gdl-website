@@ -1,0 +1,26 @@
+{
+  "name": "gdl-website",
+  "version": "1.0.0",
+  "description": "Tapin website for GDL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAV27/gdl-website.git"
+  },
+  "author": "Josh Viktorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JAV27/gdl-website/issues"
+  },
+  "homepage": "https://github.com/JAV27/gdl-website#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
