@@ -1,0 +1,17 @@
+<nav>
+    <%- include('dropdown', {dropdownId: "resourcesRegular"}); %>
+    <%- include('dropdown', {dropdownId: "resourcesSideNav"}); %>
+
+    <div class="nav-wrapper green lighten-1">
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <%- include('nav-content', {datatarget: "resourcesRegular", sideNav: false}); %>
+        </ul>
+    </div>
+
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+    <%- include('nav-content', {datatarget: "resourcesSideNav", sideNav: true}); %>
+</ul>
