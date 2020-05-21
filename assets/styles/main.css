@@ -4,7 +4,7 @@ nav {
 
 img.logo {
     height: 150px;
-    margin-top: -50px;
+    margin-top: -25px;
 }
 
 ul.main {
@@ -12,8 +12,21 @@ ul.main {
     justify-content: center;
 }
 
+.first, .second {
+    width: 300px;
+    display: flex;
+}
+
+.first {
+    justify-content: flex-end;
+}
+
 nav .nav-wrapper ul a.no-hover:hover {
     background-color: transparent; 
+}
+
+.slider {
+    z-index: -1;
 }
 
 @media only screen and (max-width: 600px) {
