@@ -25,9 +25,25 @@ nav .nav-wrapper ul a.no-hover:hover {
     background-color: transparent; 
 }
 
-.slider {
-    z-index: -1;
+.fullImage {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/defense.png') no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
 }
+
+.fullImage .container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fullImage .container a {
+    width: 10rem;
+}
+
 
 @media only screen and (max-width: 600px) {
     nav {
