@@ -52,12 +52,40 @@ nav .nav-wrapper ul a.no-hover:hover {
     min-height: 200px;
 }
 
-.whatWeDo .row {
+.row {
     margin-top: 50px;
 }
 
 .container {
-    padding: 50px 0;
+    padding: 50px;
+    min-height: 600px;
+}
+
+.ourProgram .container {
+    width: 80%;
+}
+
+img.soccerguy {
+    height: 200px;
+}
+.ourProgram .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourProgram .card-title {
+    margin-top: 20px;
+    font-weight: bold !important ;
+    height: 40px;
+    font-size: 18px !important ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ourProgram .card-reveal {
+    font-weight: bold !important ;
 }
 
 @media only screen and (max-width: 600px) {
