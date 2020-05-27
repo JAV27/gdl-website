@@ -61,9 +61,10 @@ nav .nav-wrapper ul a.no-hover:hover {
     min-height: 600px;
 }
 
-.ourProgram .container {
+.ourProgram .container, .ourLeagues .container {
     width: 80%;
 }
+
 
 img.soccerguy {
     height: 200px;
@@ -86,6 +87,19 @@ img.soccerguy {
 
 .ourProgram .card-reveal {
     font-weight: bold !important ;
+}
+
+.row.button {
+    display: flex;
+    justify-content: center;
+}
+
+.leaguesLogo {
+    height: 150px;
+}
+
+.league {
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
