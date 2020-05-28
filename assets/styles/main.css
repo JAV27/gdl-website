@@ -112,6 +112,11 @@ img.soccerguy {
     cursor: pointer;
 }
 
+.card-menu {
+    align-self: flex-end;
+    position: absolute;
+} 
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;

@@ -1,37 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="/styles/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <title>GDL Website</title>
-</head>
+    
+<%- include('includes/head'); %>
+
 <body>
     
     <!-- Navigation -->
     <%- include('includes/navbar'); %>
     
     <!-- Full Width Image -->
-    <%- include ('includes/homepage/fullWidthImage'); %>
+    <%- include ('includes/homepage_sections/fullWidthImage'); %>
 
     <!-- What We Do section -->
-    <%- include('includes/homepage/whatWeDo'); %>
+    <%- include('includes/homepage_sections/whatWeDo'); %>
 
     <!--Our Program section -->
-    <%- include('includes/homepage/ourProgram'); %>
+    <%- include('includes/homepage_sections/ourProgram'); %>
 
     <!-- Our Leagues Section -->
-    <%- include('includes/homepage/ourLeagues'); %>
+    <%- include('includes/homepage_sections/ourLeagues'); %>
 
     <!-- Testimonials -->
-    <%- include('includes/homepage/testimonials'); %>
+    <%- include('includes/homepage_sections/testimonials'); %>
 
     <!-- jquery functions for materialize -->
-    <%- include('includes/homepage/jquery'); %>
+    <%- include('includes/homepage_sections/jquery'); %>
 
 </body>
 </html>
