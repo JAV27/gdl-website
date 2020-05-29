@@ -57,11 +57,12 @@ nav .nav-wrapper ul a.no-hover:hover {
 
 .container {
     padding: 50px;
-    min-height: 500px;
+    
 }
 
 .ourProgram .container, .ourLeagues .container, .testimonials .container, .partners .container {
     width: 80%;
+    min-height: 500px;
 }
 
 
@@ -122,7 +123,12 @@ img.soccerguy {
 
 .partner-container {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.partner-container a {
+    margin-top: 20px;
 }
 
 .whatWeDo-logo {
@@ -136,6 +142,30 @@ img.soccerguy {
 }
 .whatWeDo .card-content span {
     margin-top: 10px;
+}
+
+.contactUs .container {
+    max-height: 200px;
+}
+
+.social-icon {
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.contactUs .row {
+    margin: 0;
+}
+
+.contactUs .col.mail {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contactUs .col {
+    display: flex;
+    justify-content: flex-end;
 }
 
 @media only screen and (max-width: 600px) {
