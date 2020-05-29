@@ -11,4 +11,8 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
+app.get('/aboutus', (req, res) => {
+    res.render('aboutUs');
+})
+
 app.listen(port, () => console.log("Listening on localhost:3000"));
