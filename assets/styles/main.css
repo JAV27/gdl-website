@@ -61,14 +61,18 @@ nav .nav-wrapper ul a.no-hover:hover {
 }
 
 .ourProgram .container, .ourLeagues .container, .testimonials .container, .partners .container {
-    width: 80%;
+    width: 100%;
     min-height: 500px;
 }
 
-
-img.soccerguy {
-    height: 200px;
+.ourProgram-img {
+    height: 150px;
 }
+
+.ourProgram-img.social {
+    height: 150px;
+}
+
 .ourProgram .card-content {
     display: flex;
     flex-direction: column;
