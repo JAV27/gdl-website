@@ -38,7 +38,6 @@ nav .nav-wrapper ul a.no-hover:hover {
 }
 
 .fullImage .container {
-    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,10 +57,10 @@ nav .nav-wrapper ul a.no-hover:hover {
 
 .container {
     padding: 50px;
-    min-height: 600px;
+    min-height: 500px;
 }
 
-.ourProgram .container, .ourLeagues .container, .testimonials .container {
+.ourProgram .container, .ourLeagues .container, .testimonials .container, .partners .container {
     width: 80%;
 }
 
@@ -116,6 +115,28 @@ img.soccerguy {
     align-self: flex-end;
     position: absolute;
 } 
+
+.partners-logo {
+    height: 150px;
+}
+
+.partner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.whatWeDo-logo {
+    height: 50px;
+}
+
+.whatWeDo .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatWeDo .card-content span {
+    margin-top: 10px;
+}
 
 @media only screen and (max-width: 600px) {
     nav {
