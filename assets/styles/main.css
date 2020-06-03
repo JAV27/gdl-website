@@ -69,8 +69,14 @@ nav .nav-wrapper ul a.no-hover:hover {
 }
 
 .fullImageAboutUs h3 {
-    text-decoration: underline grey;
+    /* text-decoration: underline grey;
     text-underline-position: under;
+    text-underline-offset: 10px; */
+    display: inline;
+    padding-bottom: 10px;
+    border-bottom: 4px solid grey;
+    font-weight: bold;
+    color: #333;
 }
 
 .twoPhones {
@@ -212,8 +218,42 @@ nav .nav-wrapper ul a.no-hover:hover {
     justify-content: flex-end;
 }
 
-.ourStory p {
+.ourStory p, .technology p {
     font-size: 20px;
+}
+
+.technology .tapinlogo {
+    height: 150px;
+}
+
+.technology .image {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.technology p {
+    margin-top: 50px;
+}
+
+.technology .phone {
+    margin-top: 100px;
+    
+}
+
+.technology .phoneImage {
+    text-align: right;
+}
+
+.technology .phoneImage2 {
+    text-align: center;
+}
+
+.technology .phone ul li {
+    padding: 50px;
+}
+
+.phone1, .phone2 {
+    height: 400px;
 }
 
 @media only screen and (max-width: 600px) {
