@@ -37,6 +37,46 @@ nav .nav-wrapper ul a.no-hover:hover {
     background-position: center;
 }
 
+.fullImageAboutUs {
+    background: url('/images/aboutuscover.png');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.fullImageAboutUs .container {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.fullImageAboutUs .row {
+    margin: 0;
+}
+
+.fullImageAboutUs .content {
+    margin-top: 100px;
+}
+
+.fullImageAboutUs .content p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.fullImageAboutUs .image {
+    text-align: right;
+}
+
+.fullImageAboutUs h3 {
+    text-decoration: underline grey;
+    text-underline-position: under;
+}
+
+.twoPhones {
+    height: 400px;
+}
+
 .fullImage .container {
     display: flex;
     flex-direction: column;
@@ -176,4 +216,18 @@ nav .nav-wrapper ul a.no-hover:hover {
     nav {
       margin-top: 0;
     }
-  }
+}
+
+@media only screen and (max-width: 700px) {
+    .fullImageAboutUs .content p {
+        font-size: 18px;
+    }
+
+    a.no-hover {
+        padding: 0;
+    }
+
+    a.no-hover img.logo {
+        height: 100px;
+    }
+}
