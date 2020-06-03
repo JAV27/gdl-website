@@ -218,7 +218,8 @@ nav .nav-wrapper ul a.no-hover:hover {
     justify-content: flex-end;
 }
 
-.ourStory p, .technology p {
+.ourStory p, .technology p, .socialGood p {
+    margin-top: 50px;
     font-size: 20px;
 }
 
