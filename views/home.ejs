@@ -15,7 +15,9 @@
     <%- include('includes/homepage_sections/whatWeDo'); %>
 
     <!--Our Program section -->
-    <%- include('includes/homepage_sections/ourProgram'); %>
+    <%- include('includes/homepage_sections/ourProgram', {
+        home: true
+    }); %>
 
     <!-- Our Leagues Section -->
     <%- include('includes/homepage_sections/ourLeagues'); %>

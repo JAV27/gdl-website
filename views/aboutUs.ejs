@@ -15,7 +15,9 @@
     <%- include('includes/aboutus_sections/ourStory'); %>
 
     <!-- Our Program section -->
-    <%- include('includes/homepage_sections/ourProgram'); %>
+    <%- include('includes/homepage_sections/ourProgram', {
+        home: false
+    }); %>
 
     <!-- More info -->
     <%- include('includes/aboutus_sections/technology'); %>
