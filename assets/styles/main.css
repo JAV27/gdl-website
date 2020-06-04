@@ -6,6 +6,10 @@ nav {
     margin-top: 50px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 img.logo {
     height: 150px;
     margin-top: -25px;
@@ -148,7 +152,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     height: 150px;
 }
 
-.league {
+.league, .person {
     text-align: center;
 }
 
@@ -218,16 +222,16 @@ nav .nav-wrapper ul a.no-hover:hover {
     justify-content: flex-end;
 }
 
-.ourStory p, .technology p, .socialGood p {
+.ourStory p, .technology p, .socialGood p, .sponsor p {
     margin-top: 50px;
     font-size: 20px;
 }
 
-.technology .tapinlogo {
+.technology .tapinlogo, .palla .pallalogo {
     height: 150px;
 }
 
-.technology .image {
+.technology .image, .palla .image {
     text-align: center;
     margin-top: 50px;
 }
