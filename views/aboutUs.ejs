@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<%- include('includes/general/head'); %>
+
+<body>
+    
+    <!-- Navigation -->
+    <%- include('includes/general/navbar'); %>
+
+    <!-- Full Width Image -->
+    <%- include('includes/aboutus_sections/header'); %>
+
+    <!-- About Us Main-->
+    <%- include('includes/aboutus_sections/ourStory'); %>
+
+    <!-- Our Program section -->
+    <%- include('includes/homepage_sections/ourProgram', {
+        home: false
+    }); %>
+
+    <!-- More info -->
+    <%- include('includes/aboutus_sections/technology'); %>
+
+    <!-- Social Good -->
+    <%- include('includes/aboutus_sections/socialGood'); %>
+
+    <!-- Leagues -->
+    <%- include('includes/aboutus_sections/tapinLeagues'); %>
+
+    <!-- Sponsor -->
+    <%- include('includes/aboutus_sections/sponsor'); %>
+
+    <!-- Palla -->
+    <%- include('includes/aboutus_sections/palla'); %>
+
+    <!-- Our Team -->
+    <%- include('includes/aboutus_sections/ourTeam'); %>
+
+    <!-- Contact Us -->
+    <%- include('includes/homepage_sections/contactUs'); %>
+
+    <!-- jquery functions for materialize -->
+    <%- include('includes/homepage_sections/jquery'); %>
+
+</body>
+</html>

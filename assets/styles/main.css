@@ -6,6 +6,10 @@ nav {
     margin-top: 50px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 img.logo {
     height: 150px;
     margin-top: -25px;
@@ -37,6 +41,52 @@ nav .nav-wrapper ul a.no-hover:hover {
     background-position: center;
 }
 
+.fullImageAboutUs {
+    background: url('/images/aboutuscover.png');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.fullImageAboutUs .container {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.fullImageAboutUs .row {
+    margin: 0;
+}
+
+.fullImageAboutUs .content {
+    margin-top: 100px;
+}
+
+.fullImageAboutUs .content p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.fullImageAboutUs .image {
+    text-align: right;
+}
+
+.fullImageAboutUs h3 {
+    /* text-decoration: underline grey;
+    text-underline-position: under;
+    text-underline-offset: 10px; */
+    display: inline;
+    padding-bottom: 10px;
+    border-bottom: 4px solid grey;
+    font-weight: bold;
+    color: #333;
+}
+
+.twoPhones {
+    height: 400px;
+}
+
 .fullImage .container {
     display: flex;
     flex-direction: column;
@@ -60,9 +110,13 @@ nav .nav-wrapper ul a.no-hover:hover {
     
 }
 
-.ourProgram .container, .ourLeagues .container, .testimonials .container, .partners .container {
+.ourProgramHome .container, .ourLeagues .container, .testimonials .container, .partners .container {
     width: 100%;
     min-height: 500px;
+}
+
+.outergrey .container {
+    padding: 20px 0;
 }
 
 .ourProgram-img {
@@ -102,7 +156,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     height: 150px;
 }
 
-.league {
+.league, .person {
     text-align: center;
 }
 
@@ -172,8 +226,61 @@ nav .nav-wrapper ul a.no-hover:hover {
     justify-content: flex-end;
 }
 
+.ourStory p, .technology p, .socialGood p, .sponsor p, .palla p {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.technology .tapinlogo, .palla .pallalogo {
+    height: 150px;
+}
+
+.technology .image, .palla .image {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.technology p {
+    margin-top: 50px;
+}
+
+.technology .phone {
+    margin-top: 100px;
+    
+}
+
+.technology .phoneImage {
+    text-align: right;
+}
+
+.technology .phoneImage2 {
+    text-align: center;
+}
+
+.technology .phone ul li {
+    padding: 50px;
+}
+
+.phone1, .phone2 {
+    height: 400px;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;
     }
-  }
+}
+
+@media only screen and (max-width: 700px) {
+    .fullImageAboutUs .content p {
+        font-size: 18px;
+    }
+
+    a.no-hover {
+        padding: 0;
+    }
+
+    a.no-hover img.logo {
+        height: 100px;
+    }
+}
