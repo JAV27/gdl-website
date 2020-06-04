@@ -115,6 +115,10 @@ nav .nav-wrapper ul a.no-hover:hover {
     min-height: 500px;
 }
 
+.outergrey .container {
+    padding: 20px 0;
+}
+
 .ourProgram-img {
     height: 150px;
 }
