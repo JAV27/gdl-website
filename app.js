@@ -15,4 +15,8 @@ app.get('/aboutus', (req, res) => {
     res.render('aboutUs');
 })
 
+app.get('/leagues', (req, res) => {
+    res.render('leagues');
+})
+
 app.listen(port, () => console.log("Listening on localhost:3000"));
