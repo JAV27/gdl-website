@@ -73,9 +73,6 @@ nav .nav-wrapper ul a.no-hover:hover {
 }
 
 .fullImageAboutUs h3 {
-    /* text-decoration: underline grey;
-    text-underline-position: under;
-    text-underline-offset: 10px; */
     display: inline;
     padding-bottom: 10px;
     border-bottom: 4px solid grey;
