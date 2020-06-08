@@ -41,38 +41,45 @@ nav .nav-wrapper ul a.no-hover:hover {
     background-position: center;
 }
 
-.fullImageAboutUs {
-    background: url('/images/aboutuscover.png');
+.fullImageAboutUs, .fullImageFranchise {
     width: 100%;
     height: 600px;
     background-size: cover;
     background-position: center;
 }
 
-.fullImageAboutUs .container {
+.fullImageAboutUs {
+    background: url('/images/aboutuscover.png');
+}
+
+.fullImageFranchise {
+    background: url('/images/greenbackground.png');
+}
+
+.fullImageAboutUs .container, .fullImageFranchise .container {
     width: 100%;
     padding-top: 50px;
 }
 
-.fullImageAboutUs .row {
+.fullImageAboutUs .row, .fullImageFranchise .row {
     margin: 0;
 }
 
-.fullImageAboutUs .content {
+.fullImageAboutUs .content, .fullImageFranchise .content {
     margin-top: 100px;
 }
 
-.fullImageAboutUs .content p {
+.fullImageAboutUs .content p, .fullImageFranchise .content p {
     margin-top: 50px;
     font-size: 20px;
     font-style: italic;
 }
 
-.fullImageAboutUs .image {
+.fullImageAboutUs .image, .fullImageFranchise .image {
     text-align: right;
 }
 
-.fullImageAboutUs h3 {
+.fullImageAboutUs h3, .fullImageFranchise h3 {
     display: inline;
     padding-bottom: 10px;
     border-bottom: 4px solid grey;
