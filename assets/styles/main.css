@@ -265,6 +265,44 @@ nav .nav-wrapper ul a.no-hover:hover {
     height: 400px;
 }
 
+<<<<<<< Updated upstream
+=======
+.sticker {
+    height: 50px;
+}
+
+table td{
+    text-align: center;
+}
+
+ul.indicators {
+    background-color: green;
+}
+
+.authorPic {
+    height: 50px;
+}
+
+.carousel-item {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-item .testInfo {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item .image {
+    background: url('/images/steve.png');
+    min-height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+>>>>>>> Stashed changes
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;
