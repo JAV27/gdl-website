@@ -262,6 +262,14 @@ nav .nav-wrapper ul a.no-hover:hover {
     height: 400px;
 }
 
+.sticker {
+    height: 50px;
+}
+
+table td{
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;
