@@ -297,6 +297,38 @@ ul.indicators {
     background-size: cover;
 }
 
+div.mapContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.legend ul li {
+    display: flex;
+    align-items: center;
+}
+
+.legend ul li p {
+    margin-left: 10px;
+}
+
+.color {
+    width: 40px;
+    height: 20px;
+    border-radius: 10%;
+}
+
+.colorHigh {
+    background-color: #2C6919;
+}
+
+.colorLow {
+    background-color: #83CC83;
+}
+
+.colorNone {
+    background-color: #D6D6D6;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;
