@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 
-app.use( express.static("assets"));
+app.use(express.static("assets"));
 
 app.get('/', (req, res) => {
     res.render('home');
@@ -13,10 +13,14 @@ app.get('/', (req, res) => {
 
 app.get('/aboutus', (req, res) => {
     res.render('aboutUs');
-})
+});
 
 app.get('/leagues', (req, res) => {
     res.render('leagues');
-})
+});
+
+app.get('/franchise', (req, res) => {
+    res.render('franchise');
+});
 
 app.listen(port, () => console.log("Listening on localhost:3000"));
