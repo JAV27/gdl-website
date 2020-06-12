@@ -288,20 +288,32 @@ ul.indicators {
 .carousel-item {
     padding: 50px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-.carousel-item .testInfo {
-    display: flex;
-    align-items: center;
+div.testimonial {
+    text-align: left;
+    padding: 0 50px;
 }
 
 .carousel-item .image {
     background: url('/images/Headshots/steve.png');
-    min-height: 50px;
-    width: 50px;
+    min-height: 200px;
+    width: 200px;
     background-position: center;
     background-size: cover;
+    border: 2px solid green;
+    border-radius: 100%;
+}
+
+.carousel-item .stars {
+    background: url('/images/icons/5stars.png');
+    min-height: 20px;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align-last: left;
 }
 
 div.mapContainer {
