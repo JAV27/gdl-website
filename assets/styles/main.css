@@ -367,3 +367,21 @@ div.mapContainer {
         height: 100px;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .carousel-item {
+        flex-direction: column;
+        overflow: scroll;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-item .testimonial .stars {
+        padding: 30px 0;
+    }
+
+    .carousel-item .imageContainer {
+        display: none;
+    }
+
+}
