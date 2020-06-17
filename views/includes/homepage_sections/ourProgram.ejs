@@ -1,12 +1,10 @@
-<div class="ourProgram <%= home ? 'Home grey lighten-2' : ' notHome' %>">
-    <div class="container">
+<div class="ourProgram">
         <% if (home) { %>
             <h3 class="center-align">Our Program</h3>
         <% } else { %> 
             <h5 class="green-text text-darken-1" style="font-weight: bold;">Our Program</h5>
         <% } %>
-    </div>
-    <div style="padding: 50px 10%;">
+    <div style="padding: 0 10%;">
         <div class="row">
             <%- include('../minis/ourProgramCard', {
                 title: "Player Centric",
