@@ -23,4 +23,8 @@ app.get('/franchise', (req, res) => {
     res.render('franchise');
 });
 
+app.get('/joinus', (req, res) => {
+    res.render('joinUs');
+});
+
 app.listen(port, () => console.log("Listening on localhost:3000"));

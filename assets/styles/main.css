@@ -348,6 +348,14 @@ div.mapContainer {
     background-color: #D6D6D6;
 }
 
+.types .typesTable img {
+    height: 100px;
+}
+
+.types .typesTable td {
+    border: 1px solid lightgrey;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;
