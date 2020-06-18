@@ -1,27 +1,27 @@
 <div class="container">
     <h3>Contact Form</h3>
     <div class="row">
-        <form class="col s12">
+        <form class="col s12" action="https://formspree.io/xoqklebg" method="POST">
           <div class="row">
             <div class="input-field col s6">
-              <input id="first_name" type="text" class="validate">
+              <input name="first_name" id="first_name" type="text" class="validate">
               <label for="first_name">First Name</label>
             </div>
             <div class="input-field col s6">
-              <input id="last_name" type="text" class="validate">
+              <input name="last_name" id="last_name" type="text" class="validate">
               <label for="last_name">Last Name</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
+              <input name="email "id="email" type="email" class="validate">
               <label for="email">Email</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
-              <label for="email">Phone Number</label>
+              <input name="phone" id="phone" type="tel" class="validate">
+              <label for="phone">Phone Number</label>
             </div>
           </div>
           <div class="row">
@@ -31,43 +31,43 @@
               <div class="col s6">
                 <p>
                     <label>
-                      <input name="group1" type="radio" checked />
+                      <input name="group1" type="radio" checked value="Club Organization"/>
                       <span>Club Organization</span>
                     </label>
                   </p>
                   <p>
                     <label>
-                      <input name="group1" type="radio" />
+                      <input name="group1" type="radio" value="Town Organization"/>
                       <span>Town Organization</span>
                     </label>
                   </p>
                   <p>
                     <label>
-                      <input name="group1" type="radio"  />
+                      <input name="group1" type="radio"  value="Coach"/>
                       <span>Coach</span>
                     </label>
                   </p>
                   <p>
                     <label>
-                      <input name="group1" type="radio" />
+                      <input name="group1" type="radio" value="Player/Parent"/>
                       <span>Player/Parent</span>
                     </label>
                   </p>
                   <p>
                     <label>
-                      <input name="group1" type="radio" />
+                      <input name="group1" type="radio" value="Referee"/>
                       <span>Referee</span>
                     </label>
                   </p>
                   <p>
                     <label>
-                      <input name="group1" type="radio" />
+                      <input name="group1" type="radio" value="Corporate Sponsor"/>
                       <span>Corporate Sponsor</span>
                     </label>
                   </p>
                   <p>
                     <label>
-                      <input name="group1" type="radio" />
+                      <input name="group1" type="radio" value="Prospective"/>
                       <span>Prospective Franchise</span>
                     </label>
                   </p>
@@ -80,37 +80,37 @@
             <div class="col s6">
               <p>
                   <label>
-                    <input name="group2" type="radio" checked />
+                    <input name="group2" type="radio" value="Massachusetts" checked />
                     <span>Massachusetts</span>
                   </label>
                 </p>
                 <p>
                   <label>
-                    <input name="group2" type="radio" />
+                    <input name="group2" type="radio" value="Maine"/>
                     <span>Maine</span>
                   </label>
                 </p>
                 <p>
                   <label>
-                    <input name="group2" type="radio"  />
+                    <input name="group2" type="radio"  value="New Hampshire"/>
                     <span>New Hampshire</span>
                   </label>
                 </p>
                 <p>
                   <label>
-                    <input name="group2" type="radio"/>
+                    <input name="group2" type="radio" value="Rhode Island"/>
                     <span>Rhode Island</span>
                   </label>
                 </p>
                 <p>
                   <label>
-                    <input name="group2" type="radio"/>
+                    <input name="group2" type="radio" value="Other"/>
                     <span>Other</span>
                   </label>
                 </p>
             </div>
         </div>
+        <button class="btn waves-effect waves-light green hoverable">Submit</button>
         </form>
     </div>
-    <button class="btn waves-effect waves-light green hoverable">Submit</button>
 </div>

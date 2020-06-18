@@ -1,7 +1,12 @@
+const nodemailer = require('nodemailer');
 const express = require('express');
 const app = express();
 const ejs = require('ejs');
 const port = process.env.PORT || 3000;
+const sgMail = require('@sendgrid/mail');
+
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.set('view engine', 'ejs');
 
@@ -25,6 +30,12 @@ app.get('/franchise', (req, res) => {
 
 app.get('/joinus', (req, res) => {
     res.render('joinUs');
+});
+
+app.post('/joinus', (req, res) => {
+    
+    console.log('success!');
+
 });
 
 app.listen(port, () => console.log("Listening on localhost:3000"));
