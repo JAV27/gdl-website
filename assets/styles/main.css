@@ -118,9 +118,8 @@ nav .nav-wrapper ul a.no-hover:hover {
     
 }
 
-.ourProgramHome .container, .ourLeagues .container, .testimonials .container, .partners .container {
+.ourProgramHome .container, .ourLeagues .container, .testimonials .container, .partners .container, .playerCards .container.big {
     width: 100%;
-    min-height: 500px;
 }
 
 .outergrey .container {
@@ -359,6 +358,18 @@ div.mapContainer {
 
 .types .typesTable td {
     border: 1px solid lightgrey;
+}
+
+.playerCards .image img{
+    width: 200px;
+}
+
+.playerCards .cardContainer{
+   text-align: center;
+}
+
+.playerCards .cardContainer p.title{
+   font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
