@@ -2,6 +2,10 @@ body {
     font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h3 {
+    margin: 0 !important;
+}
+
 nav {
     margin-top: 50px;
 }
@@ -354,6 +358,43 @@ div.mapContainer {
 
 .types .typesTable td {
     border: 1px solid lightgrey;
+}
+
+.news .row .col:nth-child(1) .news-card {
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) ), url('/images/news/news1.png') no-repeat center/cover;
+}
+
+.news .row .col:nth-child(2) .news-card {
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) ), url('/images/news/news2.png') no-repeat center/cover;
+}
+
+.news .row .col:nth-child(3) .news-card {
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) ), url('/images/news/news3.png') no-repeat center/cover;
+}
+
+.news-card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.news-card p.title {
+    margin: 0;
+    font-size: 20px;
+}
+
+.news-card div.league {
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
 }
 
 @media only screen and (max-width: 600px) {
