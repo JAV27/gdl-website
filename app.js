@@ -4,7 +4,6 @@ const app = express();
 const ejs = require('ejs');
 const port = process.env.PORT || 3000;
 const sgMail = require('@sendgrid/mail');
-
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
 

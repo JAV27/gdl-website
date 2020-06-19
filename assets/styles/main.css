@@ -83,7 +83,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     text-align: right;
 }
 
-.fullImageAboutUs h3, .fullImageFranchise h3 {
+.fullImageAboutUs h3, .fullImageFranchise h3, .newsHeader h3 {
     display: inline;
     padding-bottom: 10px;
     border-bottom: 4px solid grey;
@@ -400,6 +400,10 @@ div.mapContainer {
     padding: 5px;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.newsHeader {
+    min-height: 200px;
 }
 
 @media only screen and (max-width: 600px) {
