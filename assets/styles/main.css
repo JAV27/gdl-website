@@ -389,12 +389,17 @@ div.mapContainer {
 .news-card p.title {
     margin: 0;
     font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .news-card div.league {
     border-radius: 10px;
     font-size: 12px;
     padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 600px) {
