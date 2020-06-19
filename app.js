@@ -33,9 +33,11 @@ app.get('/joinus', (req, res) => {
 });
 
 app.post('/joinus', (req, res) => {
-    
     console.log('success!');
-
 });
+
+app.get('/news', (req, res) => {
+    res.render('news');
+})
 
 app.listen(port, () => console.log("Listening on localhost:3000"));
