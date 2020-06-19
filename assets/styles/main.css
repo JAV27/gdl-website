@@ -6,6 +6,10 @@ nav {
     margin-top: 50px;
 }
 
+h5 {
+    margin: 0 !important;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -162,6 +166,7 @@ nav .nav-wrapper ul a.no-hover:hover {
 
 .league, .person {
     text-align: center;
+    margin-top: 50px;
 }
 
 .carousel-wrapper {
