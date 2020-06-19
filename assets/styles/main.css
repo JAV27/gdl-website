@@ -2,6 +2,10 @@ body {
     font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 nav {
     margin-top: 50px;
 }
@@ -297,6 +301,7 @@ ul.indicators {
 
 div.testimonial {
     text-align: left;
+    min-height: 400px;
     padding: 0 50px;
 }
 
