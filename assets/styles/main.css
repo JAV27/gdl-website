@@ -171,7 +171,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     height: 150px;
 }
 
-.league, .person {
+.ourLeagues .league, .ourLeagues .person {
     text-align: center;
     margin-top: 50px;
 }
@@ -467,6 +467,9 @@ div.mapContainer {
     background-color: green;
 }
 
+.league.NH {
+    background-color: pink;
+}
 
 @media only screen and (max-width: 600px) {
     nav {
