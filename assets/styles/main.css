@@ -83,7 +83,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     text-align: right;
 }
 
-.fullImageAboutUs h3, .fullImageFranchise h3, .newsHeader h3 {
+.fullImageAboutUs h3, .fullImageFranchise h3 {
     display: inline;
     padding-bottom: 10px;
     border-bottom: 4px solid grey;
@@ -404,7 +404,33 @@ div.mapContainer {
 
 .newsHeader {
     min-height: 200px;
+    background: url('/images/news/newsHeader.png');
+    background-size: cover;
+    background-position: center;
+    padding-left: 10%;
 }
+
+.story .header .top {
+    border-bottom: 2px solid grey;
+    padding: 20px 0;
+}
+
+.story .header .top .league {
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.story .header .top .title {
+    text-align: center;
+    margin: 0;
+}
+
+.league.MA {
+    background-color: green;
+}
+
 
 @media only screen and (max-width: 600px) {
     nav {
