@@ -4,7 +4,6 @@ const app = express();
 const ejs = require('ejs');
 const port = process.env.PORT || 3000;
 const sgMail = require('@sendgrid/mail');
-
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -33,9 +32,11 @@ app.get('/joinus', (req, res) => {
 });
 
 app.post('/joinus', (req, res) => {
-    
     console.log('success!');
-
 });
+
+app.get('/news', (req, res) => {
+    res.render('news');
+})
 
 app.listen(port, () => console.log("Listening on localhost:3000"));
