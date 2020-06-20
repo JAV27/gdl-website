@@ -415,6 +415,21 @@ div.mapContainer {
     padding: 20px 0;
 }
 
+.story {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.story img {
+    width: 100%;
+    align-self: center;
+}
+
+.story > * {
+    margin-bottom: 50px;
+}
+
 .story .header .top .league {
     padding: 5px 10px;
     border-radius: 10px;
