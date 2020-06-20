@@ -381,15 +381,15 @@ div.mapContainer {
    font-size: 20px;
 }
 
-.news .row .col:nth-child(1) .news-card {
+.news .row a:nth-child(1) .news-card {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) ), url('/images/news/news1.png') no-repeat center/cover;
 }
 
-.news .row .col:nth-child(2) .news-card {
+.news .row a:nth-child(2) .news-card {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) ), url('/images/news/news2.png') no-repeat center/cover;
 }
 
-.news .row .col:nth-child(3) .news-card {
+.news .row a:nth-child(3) .news-card {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) ), url('/images/news/news3.png') no-repeat center/cover;
 }
 
@@ -469,6 +469,12 @@ div.mapContainer {
 
 .league.NH {
     background-color: pink;
+}
+
+.table-of-contents {
+    position: fixed;
+    top: 50vh;
+    right: 50px;
 }
 
 @media only screen and (max-width: 600px) {
