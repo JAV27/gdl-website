@@ -309,12 +309,21 @@ div.testimonial {
     padding: 0 50px;
 }
 
+.carousel-item .image.test1 {
+    background: url('/images/Headshots/test1.png') center/cover;
+}
+
+.carousel-item .image.test2 {
+    background: url('/images/Headshots/test2.png') center/cover;
+}
+
+.carousel-item .image.test3 {
+    background: url('/images/Headshots/test3.png') center/cover;
+}
+
 .carousel-item .image {
-    background: url('/images/Headshots/steve.png');
     min-height: 200px;
     width: 200px;
-    background-position: center;
-    background-size: cover;
     border: 2px solid green;
     border-radius: 100%;
 }

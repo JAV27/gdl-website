@@ -4,26 +4,31 @@
         <div class="row carousel-wrapper">
             <div class="carousel carousel-slider center">
                 <div class="carousel-item white" href="#one!">
-                  <div class="imageContainer">
-                    <div class="image"></div>
-                  </div>
-                  <div class="testimonial">
-                    <p class="name bold">Steve Schector</p>
-                    <p class="title green-text text-darken-2">Proffesional footballer</p>
-                    <p class="content grey-text text-darken-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, nihil recusandae omnis reiciendis iste velit quia saepe ea commodi ipsum.</p>
-                    <div class="stars"></div>
-                  </div>
+                  
+                  <%- include('../minis/testimonial', {
+                      img: "test1",
+                      name: "Mark McDevitt",
+                      title: "Harvard Women’s Soccer, US Soccer National Grassroots Coaching Course Instructor",
+                  }); %> 
+
                 </div> 
                 <div class="carousel-item white" href="#two!">
-                  <div class="imageContainer">
-                    <div class="image"></div>
-                  </div>
-                  <div class="testimonial">
-                    <p class="name bold">Steve Schector</p>
-                    <p class="title green-text text-darken-2">Proffesional footballer</p>
-                    <p class="content grey-text text-darken-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, nihil recusandae omnis reiciendis iste velit quia saepe ea commodi ipsum.</p>
-                    <div class="stars"></div>
-                  </div>
+                  
+                  <%- include('../minis/testimonial', {
+                      img: "test2",
+                      name: "Mark Spalding",
+                      title: "Head of Intermediate Academy, Rangers F.C.",
+                  }); %> 
+
+                </div> 
+                <div class="carousel-item white" href="#two!">
+                  
+                  <%- include('../minis/testimonial', {
+                      img: "test3",
+                      name: "Luke Rothero",
+                      title: "Natick Soccer Club Director of Coaching",
+                  }); %> 
+
                 </div> 
             </div>
         </div>
