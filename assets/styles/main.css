@@ -217,6 +217,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .partner-container a {
@@ -429,7 +430,6 @@ div.mapContainer {
     cursor: pointer;
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
     padding: 5px;
     margin-top: 50px;
 }
@@ -440,6 +440,7 @@ div.mapContainer {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    margin-left: 10px;
 }
 
 .news-card div.league {
@@ -448,6 +449,7 @@ div.mapContainer {
     padding: 5px;
     white-space: nowrap;
     overflow: hidden;
+    min-width: 55px;
 }
 
 .newsHeader {
@@ -508,6 +510,16 @@ div.mapContainer {
     nav {
       margin-top: 0;
     }
+
+    .testimonials .container {
+        padding: 50px 0;
+    }
+
+    .testimonials .container .carousel-item {
+        padding: 0;
+    }
+
+
 }
 
 @media only screen and (max-width: 700px) {
