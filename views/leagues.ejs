@@ -12,7 +12,9 @@
     <%- include('includes/leagues_sections/header'); %>
 
     <!-- Leagues -->
-    <%- include('includes/homepage_sections/ourLeagues'); %>
+    <%- include('includes/homepage_sections/ourLeagues', {
+        home: false
+    }); %>
 
     <!-- Info -->
     <%- include('includes/leagues_sections/info'); %>

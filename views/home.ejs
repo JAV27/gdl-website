@@ -20,7 +20,9 @@
     }); %>
 
     <!-- Our Leagues Section -->
-    <%- include('includes/homepage_sections/ourLeagues'); %>
+    <%- include('includes/homepage_sections/ourLeagues', {
+        home: true
+    }); %>
 
     <!-- News -->
     <%- include('includes/homepage_sections/news'); %>
