@@ -393,6 +393,10 @@ div.mapContainer {
     height: 100px;
 }
 
+.types .typesTable img.rec {
+    height: 60px;
+}
+
 .types .typesTable td {
     border: 1px solid lightgrey;
 }
@@ -506,6 +510,18 @@ div.mapContainer {
     right: 50px;
 }
 
+.typesTableMobile {
+    display: none;
+}
+
+.typesTableMobile img {
+    height: 60px;
+}
+
+.typesTableMobile tr {
+    margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;
@@ -550,6 +566,14 @@ div.mapContainer {
 
     .carousel-item .imageContainer {
         display: none;
+    }
+
+    .typesTable {
+        display: none;
+    }
+
+    .typesTableMobile {
+        display: table;
     }
 
 }
