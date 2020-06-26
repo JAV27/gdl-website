@@ -1,0 +1,30 @@
+<script>
+    $(document).ready(function(){
+
+        fetch("https://stage.api.tapinmobilesolutions.com/v2/api/public/graphql", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-Auth-PSK": "sKgeXk3WR2LHaKy8"
+            },
+            body: JSON.stringify({
+                query: `
+                    query {
+                        publicTeams(input: {
+                            skip: 0
+                            take: 10
+                            gender: MALE
+                            birthYear: 2002
+                            locationId: "5d51298538c43935d0bb66f8"
+                            canBeSponsored: true
+                        }) {
+                            name
+                        }
+                    }
+                `
+            })
+        }).then(res => res.json()).then(data => console.log(data));
+
+
+    });
+</script>
