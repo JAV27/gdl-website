@@ -675,7 +675,7 @@ div.mapContainer {
 
 .results .container {
     width: 100%;
-    padding: 0;
+    padding: 50px 0;
 }
 
 .results .filter .input-field {
@@ -696,6 +696,10 @@ div.mapContainer {
 
 .results .filter .filter-button:hover {
     background-color: #00cc55;
+}
+
+.results .filter .msg {
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {

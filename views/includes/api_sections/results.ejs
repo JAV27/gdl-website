@@ -3,9 +3,8 @@
         <div class="row">
             <div class="filter col m12 l3">
                 <div class="input-field">
-                    <select>
-                        <option value="" disabled selected>Choose your option</option>
-                        <option value="2002">2002</option>
+                    <select name="birthYear" id="birthYear">
+                        <option value="2002" selected>2002</option>
                         <option value="2003">2003</option>
                         <option value="2004">2004</option>
                         <option value="2005">2005</option>
@@ -19,38 +18,37 @@
                     <label>Birth Year:</label>
                 </div>
                 <div class="input-field">
-                    <select>
-                        <option value="" disabled selected>Choose your option</option>
-                        <option value="MALE">MALE</option>
+                    <select name="gender" id="gender">
+                        <option value="MALE" selected>MALE</option>
                         <option value="FEMALE">FEMALE</option>
                     </select>
                     <label>Gender</label>
                 </div>
-                <div class="input-field">
-                    <select>
-                        <option value="" disabled selected>Choose your option</option>
-                        <option value="2002">Artibonite</option>
-                        <option value="2003">Centre</option>
-                        <option value="2004">Grand'Anse</option>
-                        <option value="2005">Nippes</option>
-                        <option value="2006">Nord</option>
-                        <option value="2007">Nord-Est</option>
-                        <option value="2008">Nord-Ouest</option>
-                        <option value="2009">Ouest</option>
-                        <option value="2010">Sud</option>
-                        <option value="2011">Sud-Est</option>
+                <!-- <div class="input-field">
+                    <select name="department" id="department">
+                        <option value="All" selected>All</option>
+                        <option value="Artibonite">Artibonite</option>
+                        <option value="Centre">Centre</option>
+                        <option value="Grand'Anse">Grand'Anse</option>
+                        <option value="Nippes">Nippes</option>
+                        <option value="Nord">Nord</option>
+                        <option value="Nord-Est">Nord-Est</option>
+                        <option value="Nord-Ouest">Nord-Ouest</option>
+                        <option value="Ouest">Ouest</option>
+                        <option value="Sud">Sud</option>
+                        <option value="Sud-Est">Sud-Est</option>
                     </select>
                     <label>Department</label>
-                </div>
+                </div> -->
                 <div class="input-field">
-                    <select>
-                        <option value="" disabled selected>Choose your option</option>
-                        <option value="2002">Sponsored</option>
-                        <option value="2003">Not Sponsored</option>
+                    <select name="sponsored" id="sponsored">
+                        <option value="false">Sponsored</option>
+                        <option value="true" selected>Not Sponsored</option>
                     </select>
                     <label>Sponsored</label>
                 </div>
                 <div class="filter-button">Filter</div>
+                <div class='msg'>You must fill in every field</div>
             </div>
             <div class="result col m12 l9">
                 <table>
