@@ -12,19 +12,44 @@
                     query {
                         publicTeams(input: {
                             skip: 0
-                            take: 10
+                            take: 50
                             gender: MALE
                             birthYear: 2002
                             locationId: "5d51298538c43935d0bb66f8"
                             canBeSponsored: true
                         }) {
-                            name
+                            name,
+                            birthYear,
+                            gender,
+                            location {
+                                name,
+                                parent {
+                                    name
+                                }
+                            },
+                            canBeSponsored
                         }
                     }
                 `
             })
-        }).then(res => res.json()).then(data => console.log(data));
-
+        }).then(res => res.json()).then(
+            (data) => {
+                console.log(data.data.publicTeams);
+                data.data.publicTeams.forEach((team) => {
+                    console.log(team);
+                    $('.results .result table').append(`
+                        <tr>
+                            <td>` + team.name + `</td>
+                            <td class="hide-on-med-and-down">` + team.birthYear + `</td>
+                            <td class="hide-on-med-and-down">` + team.gender + `</td>
+                            <td class="hide-on-med-and-down">` + team.location.parent.name + `</td>
+                            <td class="hide-on-med-and-down">` + team.location.name + `</td>
+                            <td>` + team.canBeSponsored + `</td>
+                        </tr>
+                    `);
+                });
+            }
+        );
 
     });
 </script>

@@ -660,6 +660,44 @@ div.mapContainer {
     text-align: center;
 }
 
+.results .result table td{
+    border-radius: 0;
+    text-align: left;
+}
+
+.results .result table tr:first-child {
+    background-color: var(--primary-green);
+}
+
+.results .result table tr td:first-child {
+    padding-left: 50px;
+}
+
+.results .container {
+    width: 100%;
+    padding: 0;
+}
+
+.results .filter .input-field {
+    margin-bottom: 50px;
+}
+
+.results .filter .filter-button {
+    background-color: var(--primary-green);
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-family: var(--header-font);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.results .filter .filter-button:hover {
+    background-color: #00cc55;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;
