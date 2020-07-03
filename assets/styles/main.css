@@ -410,19 +410,59 @@ ul.indicators {
     height: 50px;
 }
 
-.carousel-item {
+.testimonial-card {
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 100px;
+    min-height: 560px;
+}
+
+.testimonial-card .title {
+    min-height: 50px;
+}
+
+.testimonial-card .pic {
+    border-radius: 50%;
+    border: 3px solid lightcoral;
+    height: 150px;
+    width: 150px;
+    margin-top: -75px;
+}
+
+.testimonial-card img.stars {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.testimonial-card#test1 .title {
+    color: lightcoral;
+}
+
+.testimonials .row {
+    margin-top: 150px;
+}
+
+.testimonial-card .content {
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 20px;
+    min-height: 200px;
+}
+
+/* .carousel-item {
     padding: 50px;
     display: flex;
     justify-content: space-between;
-}
-
+} */
+/* 
 div.testimonial {
     text-align: left;
     min-height: 400px;
     padding: 0 50px;
-}
+} */
 
-.carousel-item .image.test1 {
+/* .carousel-item .image.test1 {
     background: url('/images/Headshots/test1.png') center/cover;
 }
 
@@ -449,7 +489,7 @@ div.testimonial {
     background-repeat: no-repeat;
     background-size: contain;
     text-align-last: left;
-}
+} */
 
 div.mapContainer {
     display: flex;

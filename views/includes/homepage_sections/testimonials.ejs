@@ -1,36 +1,24 @@
 <div class="testimonials grey lighten-2">
     <div class="container">
         <h3 class="center-align typicalTitle">What They Said</h3> 
-        <div class="row carousel-wrapper">
-            <div class="carousel carousel-slider center">
-                <div class="carousel-item white" href="#one!">
-                  
-                  <%- include('../minis/testimonial', {
-                      img: "test1",
-                      name: "Mark McDevitt",
-                      title: "Harvard Women’s Soccer, US Soccer National Grassroots Coaching Course Instructor",
-                  }); %> 
 
-                </div> 
-                <div class="carousel-item white" href="#two!">
-                  
-                  <%- include('../minis/testimonial', {
-                      img: "test2",
-                      name: "Mark Spalding",
-                      title: "Head of Intermediate Academy, Rangers F.C.",
-                  }); %> 
-
-                </div> 
-                <div class="carousel-item white" href="#two!">
-                  
-                  <%- include('../minis/testimonial', {
-                      img: "test3",
-                      name: "Luke Rothero",
-                      title: "Natick Soccer Club Director of Coaching",
-                  }); %> 
-
-                </div> 
-            </div>
+        <div class="row">
+            <%- include('../minis/testimonial', {
+                img: "test1",
+                name: "Mark McDevitt",
+                title: "Harvard Women’s Soccer, US Soccer National Grassroots Coaching Course Instructor",
+            }); %> 
+            <%- include('../minis/testimonial', {
+                img: "test2",
+                name: "Mark Spalding",
+                title: "Head of Intermediate Academy - Rangers F.C.",
+            }); %> 
+            <%- include('../minis/testimonial', {
+                img: "test3",
+                name: "Luke Rothero",
+                title: "Harvard Women’s Soccer, US Soccer National Grassroots Coaching Course Instructor",
+            }); %> 
         </div>
+
     </div>
 </div>
