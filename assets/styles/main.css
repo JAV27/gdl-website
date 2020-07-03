@@ -423,7 +423,7 @@ ul.indicators {
 
 .testimonial-card .pic {
     border-radius: 50%;
-    border: 3px solid lightcoral;
+    border: 3px solid;
     height: 150px;
     width: 150px;
     margin-top: -75px;
@@ -438,6 +438,26 @@ ul.indicators {
     color: lightcoral;
 }
 
+.testimonial-card#test1 .pic {
+    border-color:lightcoral;
+}
+
+.testimonial-card#test2 .title {
+    color: orange;
+}
+
+.testimonial-card#test2 .pic {
+    border-color:orange;
+}
+
+.testimonial-card#test3 .title {
+    color: skyblue;
+}
+
+.testimonial-card#test3 .pic {
+    border-color:skyblue;
+}
+
 .testimonials .row {
     margin-top: 150px;
 }
@@ -448,6 +468,7 @@ ul.indicators {
     width: 80%;
     margin-bottom: 20px;
     min-height: 200px;
+    font-style: italic;
 }
 
 /* .carousel-item {
@@ -771,5 +792,13 @@ div.mapContainer {
 @media only screen and (max-width: 1000px) {
     .joinUsInfo.container {
         width: 80%;
+    }
+
+    .testimonial-card .stars .stars {
+        width: 25%;
+    }
+
+    .testimonial-card .content {
+        font-size: 20px;
     }
 }
