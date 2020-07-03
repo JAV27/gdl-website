@@ -323,14 +323,26 @@ nav .nav-wrapper ul a.no-hover:hover {
 }
 
 .social-icon {
-    height: 40px;
-    margin-right: 10px;
+    height: 60px;
     cursor: pointer;
+    position: relative;
+    margin-right: 50px;
 }
 
-.contactUs .row {
+.social-icon:last-of-type {
+    margin-right: 0;
+}
+
+.contactUs .social {
     margin: 0;
     padding-top: 50px;
+    text-align: center;
+}
+
+.contactUs .social-icon:hover {
+    border: 2px solid white;
+    border-radius: 80%;
+    box-sizing: border-box;
 }
 
 .contactUs .col.mail {
