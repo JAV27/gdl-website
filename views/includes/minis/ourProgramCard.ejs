@@ -1,15 +1,9 @@
 <div class="col s12 l4">
-    <div class="card hoverable">
-        <div class="card-content">
-            <span class="card-menu card-title green-text text-darken-2 activator"><i class="material-icons">menu</i></span>
-            <img class="ourProgram-img <%= image %>" src="/images/icons/<%= image %>.png">
-            <span class="card-title green-text text-darken-2"><%= title %></span>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title green-text text-darken-2"><%= title %><i class="material-icons right">close</i></span>
-          <% bullets.forEach(bullet => { %>
-              <p class="green-text text-darken-2"><%= bullet %></p>
-          <% }); %>
-        </div>
+
+    <div class="program">
+        <img src="/images/icons/<%= image %>.png">
+        <p class="title bold"><%= title %></p>
+        <p class="info grey-text text-darken-1"><%= info %></p>
     </div>
+    
 </div> 

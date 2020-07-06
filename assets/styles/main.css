@@ -252,9 +252,33 @@ nav .nav-wrapper ul a.no-hover:hover {
     font-weight: bold !important ;
 }
 
+.ourProgram .program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.ourProgram .program img {
+    text-align: center;
+    height: 100px;
+}
+
+.ourProgram .program .title {
+    color: var(--primary-green);
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.ourProgram .program .info {
+    text-align: center;
+}
+
 .row.button {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .leaguesLogo {
