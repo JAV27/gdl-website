@@ -339,11 +339,6 @@ nav .nav-wrapper ul a.no-hover:hover {
 
 .contactUs {
     background-color: var(--primary-green);
-    padding-bottom: 75px;
-}
-
-.contactUs .container {
-    max-height: 200px;
 }
 
 .social-icon {
@@ -768,6 +763,10 @@ div.mapContainer {
 
     .testimonials .container .carousel-item {
         padding: 0;
+    }
+
+    .social .social-icon {
+        margin-right: 0;
     }
 
 
