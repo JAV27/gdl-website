@@ -402,11 +402,26 @@ nav .nav-wrapper ul a.no-hover:hover {
 }
 
 .technology .phoneImage2 {
-    text-align: center;
+    text-align: left;
+}
+
+.technology .phone ul {
+    list-style-image: url('/images/icons/dot.png');
+    list-style-position: outside;
+    padding: 50px;
 }
 
 .technology .phone ul li {
-    padding: 50px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.technology .phone ul li span {
+    font-size: 14px;
+}
+
+.technology .ouotergrey .container {
+
 }
 
 .phone1, .phone2 {
@@ -786,6 +801,20 @@ div.mapContainer {
 
 .download img.QR {
     width: 100px;
+}
+
+.download .available img {
+    height: 30px;
+    cursor: pointer;
+    filter: opacity(80%);
+}
+
+.download .available img:hover {
+    filter: opacity(100%);
+}
+
+.download .available p {
+    font-size: 18px;
 }
 
 .sponsor .tapinBtn {
