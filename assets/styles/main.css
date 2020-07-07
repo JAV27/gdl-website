@@ -112,7 +112,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     font-size: 2.25rem;
 }
 
-.fullImage .btn-large {
+.fullImage .btn-large, .tapinBtn {
     background: linear-gradient( rgba(55, 172, 0, 1), rgba(14, 55, 0, 1) );
     border-radius: 10px;
     height: 45px;
@@ -750,6 +750,61 @@ div.mapContainer {
 
 .stickers .row .image {
     text-align: center;
+}
+
+.download {
+    background: linear-gradient(45deg, green, #037bfc);
+}
+
+.download .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download .wrap .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.download .container {
+    padding: 50px 0;
+}
+
+.download img.tapin {
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+.download .wrap .content .title {
+    color: white;
+    font-size: 2rem;
+    max-width: 30%;
+}
+
+.download img.QR {
+    width: 100px;
+}
+
+.sponsor .tapinBtn {
+    font-weight: normal;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.sponsor h4 {
+    font-style: italic;
+}
+
+.sponsor img.hand {
+    width: 200px;
+    height: 200px;
+} 
+
+.sponsor p {
+    margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
