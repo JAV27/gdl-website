@@ -420,10 +420,6 @@ nav .nav-wrapper ul a.no-hover:hover {
     font-size: 14px;
 }
 
-.technology .ouotergrey .container {
-
-}
-
 .phone1, .phone2 {
     height: 400px;
 }
@@ -728,12 +724,24 @@ div.mapContainer {
     font-family: 'Roboto';
 }
 
-.container.joinUsInfo {
-    width: 60%;
-}
-
 .joinUsInfo form.col {
     padding: 0;
+}
+
+.joinUsInfo .include {
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.joinUsInfo .league {
+    text-align: center;
+}
+
+.joinUsInfo .row.leagues {
+    margin: 0;
 }
 
 .info table {
@@ -836,6 +844,26 @@ div.mapContainer {
     margin: 0;
 }
 
+.contactBox .box {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.contactBox .box .content {
+    width: 75%;
+}
+
+.contactBox .box .content .title {
+    color: var(--primary-green);
+    font-size: 24px;
+    margin: 0;
+}
+
+.contactBox .box img {
+    height: 150px;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;
@@ -897,9 +925,6 @@ div.mapContainer {
 }
 
 @media only screen and (max-width: 1000px) {
-    .joinUsInfo.container {
-        width: 80%;
-    }
 
     .testimonial-card .stars .stars {
         width: 25%;
