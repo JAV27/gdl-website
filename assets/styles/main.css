@@ -131,6 +131,14 @@ nav .nav-wrapper ul a.no-hover:hover {
     background: url('/images/backgrounds/aboutuscover.png');
 }
 
+.fullImageLeague {
+    background: url('/images/backgrounds/league.png');
+}
+
+.fullImageJoin {
+    background: url('/images/backgrounds/joinus.jpg');
+}
+
 .fullImageFranchise {
     background: url('/images/backgrounds/greenbackground.png');
 }
@@ -171,6 +179,10 @@ nav .nav-wrapper ul a.no-hover:hover {
     border-bottom: 4px solid grey;
     font-weight: bold;
     color: #333;
+}
+
+.fullImageLeague h3, .fullImageJoin h3 {
+    border-bottom: 2px solid white;
 }
 
 .twoPhones {
