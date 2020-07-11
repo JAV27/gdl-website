@@ -896,6 +896,14 @@ div.mapContainer {
     height: 150px;
 }
 
+div.moreContent {
+    display: none;
+}
+
+a.readLess {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;

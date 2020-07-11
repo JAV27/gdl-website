@@ -7,5 +7,19 @@
             fullWidth: true
         });
         $('.scrollspy').scrollSpy();
+
+
+        $('.readMore').on('click', function() {
+            $(this).parent().parent().children('.moreContent').show();
+            $(this).hide();
+            $(this).siblings('.readLess').show();
+        });
+
+        $('.readLess').on('click', function() {
+            $(this).parent().parent().children('.moreContent').hide();
+            $(this).hide();
+            $(this).siblings('.readMore').show();
+        });
+
     });
 </script>
