@@ -365,7 +365,7 @@ nav .nav-wrapper ul a.no-hover:hover {
 }
 
 .contactUs .social {
-    margin: 0;
+    margin: auto;
     padding-top: 50px;
     text-align: center;
 }
@@ -921,7 +921,35 @@ a.readLess {
         margin-right: 0;
     }
 
+    .fullImage h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
 
+    .partners .partners-logo {
+        height: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+    .partners .partners-logo {
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .whatWeDo .container {
+        padding: 0;
+    }
+
+    .social {
+        width: 150px;
+    }
+
+    .contactUs .container {
+        padding: 50px 0;
+    }
 }
 
 @media only screen and (max-width: 700px) {
