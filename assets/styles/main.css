@@ -912,6 +912,15 @@ a.readLess {
     height: 400px;
 }
 
+.activeFranchises .map {
+    width: 80%;
+    text-align: center;
+}
+
+.activeFranchises .map iframe {
+    width: 80%;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;
@@ -946,6 +955,20 @@ a.readLess {
         display: table;
     }
 
+    .fullImageFranchise .content {
+        margin-top:0;
+    }    
+
+}
+
+@media only screen and (max-width: 565px) {
+    .fullImageFranchise .content h3 {
+        border-bottom: none;
+    }
+
+    .fullImageFranchise .content h3 span {
+        border-bottom: 4px solid grey;
+    }
 }
 
 @media only screen and (max-width: 300px) {
@@ -1040,5 +1063,14 @@ a.readLess {
 
     .testimonial-card .content {
         font-size: 20px;
+    }
+
+    .activeFranchises .mapContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activeFranchises .mapContainer .map iframe {
+        height: 70vw;
     }
 }
