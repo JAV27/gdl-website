@@ -904,6 +904,14 @@ a.readLess {
     display: none;
 }
 
+.stickers table.mobile {
+    display: none;
+}
+
+.stickers .row .image img {
+    height: 400px;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
       margin-top: 0;
@@ -930,6 +938,14 @@ a.readLess {
         height: 100px;
     }
 
+    .stickers table {
+        display: none;
+    }
+
+    .stickers table.mobile {
+        display: table;
+    }
+
 }
 
 @media only screen and (max-width: 300px) {
@@ -949,6 +965,22 @@ a.readLess {
 
     .contactUs .container {
         padding: 50px 0;
+    }
+
+    .fullImageLeague .content p {
+        display:none;
+    }
+
+    .fullImageLeague .content h3 {
+        border-bottom: none;
+    }
+
+    .fullImageLeague .content h3 span {
+        border-bottom: 2px solid white;
+    }
+
+    .stickers .row .image img {
+        height: 250px;
     }
 }
 
@@ -987,6 +1019,14 @@ a.readLess {
     }
 
     .typesTableMobile {
+        display: table;
+    }
+
+    .info table {
+        display: none;
+    }
+
+    .info table.mobile {
         display: table;
     }
 
