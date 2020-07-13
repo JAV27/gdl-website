@@ -882,10 +882,6 @@ div.mapContainer {
     padding: 50px;
 }
 
-.contactBox .box .content {
-    width: 75%;
-}
-
 .contactBox .box .content .title {
     color: var(--primary-green);
     font-size: 24px;
@@ -922,6 +918,10 @@ a.readLess {
 }
 
 @media only screen and (max-width: 600px) {
+    .container {
+        padding: 50px 10px;
+    }
+
     nav {
       margin-top: 0;
     }
@@ -957,7 +957,11 @@ a.readLess {
 
     .fullImageFranchise .content {
         margin-top:0;
-    }    
+    }   
+    
+    .contactBox .col .content {
+        text-align: center;
+    }
 
 }
 
@@ -1019,6 +1023,20 @@ a.readLess {
     a.no-hover img.logo {
         height: 100px;
     }
+
+    .download .wrap .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .download .wrap .content .app {
+        margin-bottom: 50px;
+    }
+
+    .download .wrap .content .title {
+        max-width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 800px) {
