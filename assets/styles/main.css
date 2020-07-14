@@ -699,16 +699,28 @@ div.mapContainer {
     box-sizing: border-box;
 }
 
+.story .header .top .leagueSmall {
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+
+.story .header .top {
+    text-align: center;
+}
+
 .story .header .top .title {
     text-align: center;
     margin: 0;
 }
 
-.league.MA {
+.MA {
     background-color: green;
 }
 
-.league.NH {
+.NH {
     background-color: pink;
 }
 
@@ -987,6 +999,14 @@ a.readLess {
     .sponsor img.hand {
         width: 150px;
         height: 150px;
+    }
+
+    .story .header .top .leagueSmall {
+        display: block;
+    }
+
+    .story .header .top .league {
+        display: none;
     }
 }
 
