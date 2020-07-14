@@ -876,6 +876,9 @@ div.mapContainer {
     margin: 0;
 }
 
+.sponsor .container {
+    padding: 50px 0;
+}
 .contactBox .box {
     display: flex;
     justify-content: space-between;
@@ -917,6 +920,11 @@ a.readLess {
     width: 80%;
 }
 
+.tapinLeagues .row .league {
+    text-align: center;
+}
+
+
 @media only screen and (max-width: 600px) {
     .container {
         padding: 50px 10px;
@@ -954,15 +962,32 @@ a.readLess {
     .stickers table.mobile {
         display: table;
     }
-
-    .fullImageFranchise .content {
-        margin-top:0;
-    }   
     
     .contactBox .col .content {
         text-align: center;
     }
 
+    .fullImageAboutUs .content, .fullImageFranchise .content {
+        margin-top: 0;
+    }
+
+    .technology .tapinlogo {
+        height: 100px;
+    }
+
+    .phone .phoneImage, .phone .phoneImage2 {
+        text-align: center;
+    }
+
+    .phone ul li {
+        text-align: center;
+        list-style-image: none;
+    }
+
+    .sponsor img.hand {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 @media only screen and (max-width: 565px) {
@@ -977,6 +1002,10 @@ a.readLess {
 
 @media only screen and (max-width: 300px) {
     .partners .partners-logo {
+        height: 50px;
+    }
+
+    .technology .tapinlogo {
         height: 50px;
     }
 }
@@ -1090,5 +1119,17 @@ a.readLess {
 
     .activeFranchises .mapContainer .map iframe {
         height: 70vw;
+    }
+
+    .sponsor .row {
+        text-align: center;
+    }
+
+    .ourTeam .row .person:nth-child(2) {
+        text-align: right;
+    }
+
+    .ourTeam .row .person {
+        margin-bottom: 50px;
     }
 }
