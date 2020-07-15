@@ -4,12 +4,17 @@
             <h3 class="center-align typicalTitle">Our Program</h3>
         <% } else { %> 
             <div class="container">
-                <h4 class="primaryGreen bold">Our Program</h4>
+                <h3 class="darkerGreen bold">Our Program</h3>
                 <hr>
             </div>
         <% } %>
-    <div style="padding: 0 10%;">
+    <div style="padding: 50px 10%;">
         <div class="row">
+            <%- include('../minis/ourProgramCard', {
+                title: "Revolutionary Technology",
+                image: "cellphone",
+                info: "Customized, Targeted, Development Focused Tools"
+            }); %>
             <%- include('../minis/ourProgramCard', {
                 title: "Player Centric",
                 image: "soccerguy",
@@ -21,19 +26,14 @@
                 info: "Built by Experienced Soccer Leaders/Educators"
             }); %>
             <%- include('../minis/ourProgramCard', {
-                title: "Revolutionary Technology",
-                image: "cellphone",
-                info: "Customized, Targeted, Development Focused Tools"
+                title: "Full Administration Platform",
+                image: "circlePeople",
+                info: "End to End League and Program Management"
             }); %>
             <%- include('../minis/ourProgramCard', {
                 title: "Open to All",
                 image: "diversity",
                 info: "Inclusive and Diverse"
-            }); %>
-            <%- include('../minis/ourProgramCard', {
-                title: "Full Administration Platform",
-                image: "circlePeople",
-                info: "End to End League and Program Management"
             }); %>
             <%- include('../minis/ourProgramCard', {
                 title: "Social Good",
@@ -44,7 +44,7 @@
 
         <% if (home) { %>
             <div class="row button">
-                <a href="/aboutus" class="btn-large green lighten-1 waves-effect">Learn More</a>
+                <a href="/aboutus" class="btn-large green lighten-1 waves-effect tapinBtn">Learn More</a>
             </div>
         <% } %>
 

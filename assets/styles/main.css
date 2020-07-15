@@ -2,12 +2,17 @@
 
 :root {
     --primary-green: #008738;
-    --header-font: 'Roboto', sans-serif
+    --header-font: 'Roboto', sans-serif;
+    --darker-green: #006934;
 }
 
 /*************/
 
 /* UNIVERSAL CLASSES */
+
+.darkerGreen {
+    color: var(--darker-green);
+}
 
 .bold {
     font-weight: bold;
@@ -114,7 +119,7 @@ nav .nav-wrapper ul a.no-hover:hover {
 
 .fullImage .btn-large, .tapinBtn {
     background: linear-gradient( rgba(55, 172, 0, 1), rgba(14, 55, 0, 1) );
-    border-radius: 10px;
+    border-radius: 10px !important;
     height: 45px;
     font-style: italic;
     line-height: 45px;
@@ -217,6 +222,19 @@ nav .nav-wrapper ul a.no-hover:hover {
 
 .whatWeDo .card {
     min-height: 200px;
+    padding-top:10px;
+}
+
+.whatWeDo .card#one {
+    background: linear-gradient(180deg, #008738, #81D49D );
+}
+
+.whatWeDo .card#two {
+    background: linear-gradient(180deg, #8FC31F, #C8E191 );
+}
+
+.whatWeDo .card#three {
+    background: linear-gradient(180deg, #006934, #84B79D );
 }
 
 .row {
@@ -273,12 +291,12 @@ nav .nav-wrapper ul a.no-hover:hover {
 
 .ourProgram .program img {
     text-align: center;
-    height: 100px;
+    height: 135px;
 }
 
 .ourProgram .program .title {
     color: var(--primary-green);
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 0;
     text-align: center;
 }
@@ -366,7 +384,7 @@ nav .nav-wrapper ul a.no-hover:hover {
 
 .contactUs .social {
     margin: auto;
-    padding-top: 50px;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -400,6 +418,10 @@ nav .nav-wrapper ul a.no-hover:hover {
     margin-top: 50px;
 }
 
+.palla {
+    margin-top: 50px;
+}
+
 .technology p {
     margin-top: 50px;
 }
@@ -409,18 +431,13 @@ nav .nav-wrapper ul a.no-hover:hover {
     
 }
 
-.technology .phoneImage {
-    text-align: right;
-}
-
-.technology .phoneImage2 {
+.technology .phoneImage, .technology .phoneImage2 {
     text-align: left;
 }
 
 .technology .phone ul {
     list-style-image: url('/images/icons/dot.png');
-    list-style-position: outside;
-    padding: 50px;
+    padding: 0 50px;
 }
 
 .technology .phone ul li {
@@ -432,8 +449,37 @@ nav .nav-wrapper ul a.no-hover:hover {
     font-size: 14px;
 }
 
-.phone1, .phone2 {
-    height: 400px;
+.technology {
+    padding-bottom: 50px;
+}
+
+.phone1 {
+    width: 80%;
+}
+
+.phone2 {
+    width: 100%;
+}
+
+.ourTeam .person {
+    text-align: center;
+}
+
+.ourTeam .person .name {
+    font-size: 20px;
+}
+
+.ourTeam .person .title {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.ourTeam .person .subtitle {
+    font-style: italic;
+}
+
+.ourTeam .person .subtitle, .ourTeam .person .title, .ourTeam .person .name{
+    margin: 5px 0;
 }
 
 .sticker {
@@ -587,12 +633,20 @@ div.mapContainer {
     background-color: #D6D6D6;
 }
 
+.types {
+    margin-top: 50px;
+}
+
+.types .typesTable, .types .typesTableMobile {
+    margin-top: 50px;
+}
+
 .types .typesTable img {
     height: 100px;
 }
 
-.types .typesTable img.rec {
-    height: 60px;
+.types .typesTable img.team {
+    height: 85px;
 }
 
 .types .typesTable td {
@@ -607,6 +661,10 @@ div.mapContainer {
 
 .types .typesTable tr.headers td {
     font-weight: 500;
+}
+
+.playerCards .container > p, .tapinLeagues .container > p, .ourTeam .container > p  {
+    font-size: 20px;
 }
 
 .playerCards .image img{
@@ -742,7 +800,7 @@ div.mapContainer {
     margin-bottom: 50px;
 }
 
-.joinUsInfo h3 {
+.joinUsInfo h3, .socialGood h3, .technology h3, .ourProgram h3, .ourStory h3, .palla h3 {
     font-size: 28px;
     font-weight: bolder;
     font-family: 'Roboto';
@@ -756,7 +814,7 @@ div.mapContainer {
     justify-content: center;
     text-align: center;
     height: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     border-radius: 10px;
 }
 
@@ -766,6 +824,10 @@ div.mapContainer {
 
 .joinUsInfo .row.leagues {
     margin: 0;
+}
+
+.joinUsInfo p.info {
+    margin-top: 50px;
 }
 
 .info table {
@@ -821,7 +883,7 @@ div.mapContainer {
 }
 
 .download img.tapin {
-    width: 150px;
+    width: 175px;
     margin-bottom: 25px;
 }
 
@@ -845,8 +907,8 @@ div.mapContainer {
 }
 
 .download .app img.app-logo {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     margin-right: 25px;
     border-radius: 5px;
     cursor: pointer;
@@ -857,12 +919,20 @@ div.mapContainer {
     align-items: center;
 }
 
+.download .app .words > p {
+    font-size: 16px;
+}
+
 .download .app .words .available img{
     height: 30px;
     width: 24px;
     margin-left: 10px;
     filter: opacity(80%);
     cursor: pointer;
+}
+
+.row.contactForm {
+    margin-top: 0;
 }
 
 .download .app .words .available img:hover {
@@ -905,6 +975,12 @@ div.mapContainer {
 
 .contactBox .box img {
     height: 150px;
+}
+
+.contactBox .box .info a {
+    color: #ff3366;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 div.moreContent {
@@ -1146,7 +1222,7 @@ a.readLess {
     }
 
     .ourTeam .row .person:nth-child(2) {
-        text-align: right;
+        text-align: center;
     }
 
     .ourTeam .row .person {
