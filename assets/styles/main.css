@@ -90,6 +90,10 @@ ul.main {
     justify-content: center;
 }
 
+.nav-wrapper {
+    background-color: var(--darker-green);
+}
+
 .first, .second {
     width: 300px;
     display: flex;
@@ -371,14 +375,14 @@ nav .nav-wrapper ul a.no-hover:hover {
     background-color: var(--primary-green);
 }
 
-.social-icon {
+.social a img.social-icon {
     height: 60px;
     cursor: pointer;
     position: relative;
     margin-right: 50px;
 }
 
-.social-icon:last-of-type {
+.social a:last-of-type img.social-icon {
     margin-right: 0;
 }
 
@@ -518,23 +522,23 @@ ul.indicators {
 }
 
 .testimonial-card img.stars {
-    width: 50%;
+    width: 25%;
     margin-bottom: 50px;
 }
 
-.testimonial-card#test1 .title {
+.testimonial-card#tomasso .title {
     color: lightcoral;
 }
 
-.testimonial-card#test1 .pic {
+.testimonial-card#tomasso .pic {
     border-color:lightcoral;
 }
 
-.testimonial-card#test2 .title {
+.testimonial-card#markspalding .title {
     color: orange;
 }
 
-.testimonial-card#test2 .pic {
+.testimonial-card#markspalding .pic {
     border-color:orange;
 }
 
@@ -844,6 +848,22 @@ div.mapContainer {
     font-family: var(--header-font);
 }
 
+.info .pdf {
+    margin-top: 50px;
+}
+
+.info .pdf a {
+    color: #ff7771;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+.info .pdf i {
+    color: #ff7771;
+    font-size: 30px;
+}
+
 .stickers table {
     margin-top: 50px;
 }
@@ -1010,6 +1030,14 @@ a.readLess {
 
 .tapinLeagues .row .league {
     text-align: center;
+}
+
+a[name="contactform"] {
+    color: black;
+}
+
+.info table.mobile {
+    display: none;
 }
 
 
@@ -1188,7 +1216,7 @@ a.readLess {
         display: table;
     }
 
-    .info table {
+    .info table.reg {
         display: none;
     }
 
