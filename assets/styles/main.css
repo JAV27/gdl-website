@@ -137,11 +137,11 @@ nav .nav-wrapper ul a.no-hover:hover {
 }
 
 .fullImageAboutUs {
-    background: url('/images/backgrounds/aboutuscover.png');
+    background: url('/images/backgrounds/aboutus.jpg');
 }
 
 .fullImageLeague {
-    background: url('/images/backgrounds/league.png');
+    background: url('/images/backgrounds/programs.jpg');
 }
 
 .fullImageJoin {
@@ -411,6 +411,18 @@ nav .nav-wrapper ul a.no-hover:hover {
 .ourStory p, .technology p, .socialGood p, .sponsor p, .palla p {
     margin-top: 50px;
     font-size: 18px;
+}
+
+.socialGood {
+    margin-top: 50px;
+}
+
+li a i.right {
+    margin-left: 0;
+}
+
+.dropdown-content#dropdown1 li a {
+    color: var(--darker-green)
 }
 
 .technology .tapinlogo, .palla .pallalogo {
