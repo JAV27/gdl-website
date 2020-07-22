@@ -9,7 +9,9 @@
     <%- include('includes/general/navbar'); %>
     
     <!-- Header -->
-    <%- include('includes/leaguelanding_sections/header'); %>
+    <%- include('includes/leaguelanding_sections/header', {
+        league: league
+    }); %>
 
     <!-- Who's it for -->
     <%- include('includes/joinus_sections/types'); %>
@@ -36,7 +38,7 @@
     <%- include('includes/joinus_sections/contactBox'); %>
 
     <!-- Banner -->
-    <%- include('includes/leaguelandintg_sections/banner'); %>
+    <%- include('includes/leaguelanding_sections/banner'); %>
 
     <!-- Form -->
     <%- include('includes/joinus_sections/contactForm'); %>
