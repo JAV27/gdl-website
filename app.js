@@ -23,6 +23,13 @@ app.get('/leagues', (req, res) => {
     res.render('leagues');
 });
 
+app.get('/leagues/:league', (req, res) => {
+    console.log(req.params.league);
+    res.render('leagueLanding', {
+        league: req.params.league
+    });
+});
+
 app.get('/franchise', (req, res) => {
     res.render('franchise');
 });
