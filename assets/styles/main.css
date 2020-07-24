@@ -452,13 +452,21 @@ li a i.right {
 }
 
 .technology .phone ul {
-    list-style-image: url('/images/icons/dot.png');
     padding: 0 50px;
 }
 
 .technology .phone ul li {
     margin-bottom: 30px;
     font-size: 18px;
+    list-style: none;
+}
+
+.technology .phone ul li .dot {
+    background-color: var(--primary-green);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .technology .phone ul li span {
