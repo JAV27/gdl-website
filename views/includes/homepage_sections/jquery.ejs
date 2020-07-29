@@ -10,16 +10,18 @@
 
 
         $('.readMore').on('click', function() {
-            $(this).parent().parent().children('.moreContent').show();
+            $(this).parent().parent().children('.moreContent').slideDown();
             $(this).hide();
             $(this).siblings('.readLess').show();
         });
 
         $('.readLess').on('click', function() {
-            $(this).parent().parent().children('.moreContent').hide();
+            $(this).parent().parent().children('.moreContent').slideUp();
             $(this).hide();
             $(this).siblings('.readMore').show();
         });
+
+
 
     });
 </script>
