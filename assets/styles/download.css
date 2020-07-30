@@ -1,0 +1,73 @@
+.download {
+    background: linear-gradient(45deg, #02af5f, #074c96);
+}
+
+.download .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download .wrap .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.download .container {
+    padding: 50px 0;
+}
+
+.download img.tapin {
+    width: 175px;
+    margin-bottom: 25px;
+}
+
+.download .wrap .content .title {
+    color: white;
+    font-size: 2rem;
+    max-width: 30%;
+}
+
+.download img.QR {
+    width: 100px;
+}
+
+.download .app {
+    display: flex;
+    align-items: center;
+}
+
+.download .app .words p{
+    margin: 0;
+}
+
+.download .app img.app-logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download .app .words .available {
+    display: flex;
+    align-items: center;
+}
+
+.download .app .words > p {
+    font-size: 16px;
+}
+
+.download .app .words .available img{
+    height: 30px;
+    width: 24px;
+    margin-left: 10px;
+    filter: opacity(80%);
+    cursor: pointer;
+}
+
+.download .app .words .available img:hover {
+    filter: opacity(100%);
+}

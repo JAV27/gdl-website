@@ -1,63 +1,8 @@
-/* VARIABLES */
+@import "variables.css";
 
-:root {
-    --primary-green: #008738;
-    --header-font: 'Roboto', sans-serif;
-    --darker-green: #006934;
-}
+@import "universal.css";
 
-/*************/
-
-/* UNIVERSAL CLASSES */
-
-.darkerGreen {
-    color: var(--darker-green);
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.container.big {
-    width: 90%;
-    padding: 50px;
-}
-
-.typicalTitle {
-    font-family: var(--header-font);
-    font-weight: bolder;
-    color: #333;
-}
-
-.tapinRed {
-    background-color: #ff7771;
-}
-
-.tapinYellow {
-    background-color: #ffdd69
-}
-
-.tapinBlue {
-    background-color: #64b2ff;
-}
-
-.tapinRed.lighter {
-    background-color: rgba(255, 95, 88, 0.5);
-}
-
-.tapinYellow.lighter {
-    background-color:rgba(243,202,62,.5);
-}
-
-.tapinBlue.lighter {
-    background-color: rgba(51,153,255,.5);
-}
-
-.primaryGreen {
-    color: var(--primary-green);
-}
-
-/*********************/
+@import "download.css";
 
 body {
     font-family: var(--header-font);
@@ -119,21 +64,6 @@ nav .nav-wrapper ul a.no-hover:hover {
     font-style: italic;
     font-weight: 700;
     font-size: 2.25rem;
-}
-
-.fullImage .btn-large, .tapinBtn {
-    background: linear-gradient( rgba(55, 172, 0, 1), rgba(14, 55, 0, 1) );
-    border-radius: 10px !important;
-    height: 45px;
-    font-style: italic;
-    line-height: 45px;
-    text-transform: none;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.fullImage .btn-large:hover {
-    background-color: #008738;
 }
 
 .fullImageAboutUs {
@@ -583,47 +513,6 @@ ul.indicators {
     font-style: italic;
 }
 
-/* .carousel-item {
-    padding: 50px;
-    display: flex;
-    justify-content: space-between;
-} */
-/* 
-div.testimonial {
-    text-align: left;
-    min-height: 400px;
-    padding: 0 50px;
-} */
-
-/* .carousel-item .image.test1 {
-    background: url('/images/Headshots/test1.png') center/cover;
-}
-
-.carousel-item .image.test2 {
-    background: url('/images/Headshots/test2.png') center/cover;
-}
-
-.carousel-item .image.test3 {
-    background: url('/images/Headshots/test3.png') center/cover;
-}
-
-.carousel-item .image {
-    min-height: 200px;
-    width: 200px;
-    border: 2px solid green;
-    border-radius: 100%;
-}
-
-.carousel-item .stars {
-    background: url('/images/icons/5stars.png');
-    min-height: 20px;
-    width: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    text-align-last: left;
-} */
-
 div.mapContainer {
     display: flex;
     justify-content: space-around;
@@ -901,82 +790,10 @@ div.mapContainer {
     text-align: center;
 }
 
-.download {
-    background: linear-gradient(45deg, #02af5f, #074c96);
-}
 
-.download .wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.download .wrap .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.download .container {
-    padding: 50px 0;
-}
-
-.download img.tapin {
-    width: 175px;
-    margin-bottom: 25px;
-}
-
-.download .wrap .content .title {
-    color: white;
-    font-size: 2rem;
-    max-width: 30%;
-}
-
-.download img.QR {
-    width: 100px;
-}
-
-.download .app {
-    display: flex;
-    align-items: center;
-}
-
-.download .app .words p{
-    margin: 0;
-}
-
-.download .app img.app-logo {
-    width: 75px;
-    height: 75px;
-    margin-right: 25px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.download .app .words .available {
-    display: flex;
-    align-items: center;
-}
-
-.download .app .words > p {
-    font-size: 16px;
-}
-
-.download .app .words .available img{
-    height: 30px;
-    width: 24px;
-    margin-left: 10px;
-    filter: opacity(80%);
-    cursor: pointer;
-}
 
 .row.contactForm {
     margin-top: 0;
-}
-
-.download .app .words .available img:hover {
-    filter: opacity(100%);
 }
 
 .sponsor .tapinBtn {
