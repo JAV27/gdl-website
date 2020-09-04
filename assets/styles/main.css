@@ -576,6 +576,55 @@ div.mapContainer {
     font-weight: 500;
 }
 
+.optionsTable {
+    margin-top: 50px;
+}
+
+.optionsTable img {
+    height: 100px;
+}
+
+.optionsTable tr td:first-of-type {
+    border-right: 1px solid grey;
+    width: 25%;
+}
+
+.optionsTable p {
+    font-style: italic;
+}
+
+.optionsTable tr:nth-of-type(2n) td:nth-of-type(2) {
+    padding: 25px 100px;
+    text-align: left;
+}
+
+.optionsTable tr:last-of-type td {
+    color: var(--primary-green);
+    padding: 25px 100px;
+}
+
+.optionsTableMobile tr:last-of-type td {
+    color: var(--primary-green);
+}
+
+.optionsTableMobile {
+    display: none;
+}
+
+.optionsTableMobile img {
+    height: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+    .optionsTable {
+        display: none;
+    }
+
+    .optionsTableMobile {
+        display: table;
+    }
+}
+
 .playerCards .container > p, .tapinLeagues .container > p, .ourTeam .container > p  {
     font-size: 20px;
 }
