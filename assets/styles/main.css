@@ -180,6 +180,10 @@ nav .nav-wrapper ul a.no-hover:hover {
     
 }
 
+.ourProgram .row .program .col {
+    max-height: 345px;
+}
+
 .ourProgramHome .container, .ourLeagues .container, .testimonials .container, .partners .container, .playerCards .container.big {
     width: 100%;
 }
