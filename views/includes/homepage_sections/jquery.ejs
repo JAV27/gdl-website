@@ -22,7 +22,13 @@
         });
 
         $(window).scroll(function() {
-            console.log($(window).scrollTop())
+
+            let scroll = $(window).scrollTop()
+
+            if (scroll > 500) {
+                print(scroll)
+            }
+           
         })
 
     });
