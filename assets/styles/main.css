@@ -157,6 +157,7 @@ nav .nav-wrapper ul a.no-hover:hover {
 .whatWeDo .card {
     min-height: 200px;
     padding-top:10px;
+    opacity: 0;
 }
 
 .whatWeDo .card#one {
