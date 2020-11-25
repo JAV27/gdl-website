@@ -23,7 +23,9 @@
     <%- include('includes/joinus_sections/included'); %>
 
     <!-- Where -->
-    <%- include('includes/leaguelanding_sections/where'); %>
+    <%- include('includes/leaguelanding_sections/where', {
+        league: league
+    }); %>
 
     <!-- When -->
     <%- include('includes/leaguelanding_sections/when'); %>

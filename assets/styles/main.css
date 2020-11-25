@@ -867,6 +867,20 @@ div.mapContainer {
     margin-top: 50px;
 }
 
+.joinUsInfo .where img {
+    height: 500px;
+}
+
+@media only screen and (max-width: 400px) {
+    .joinUsInfo .where img {
+        height: 250px;
+    }
+}
+
+.joinUsInfo .where {
+    text-align: center;
+}
+
 .info table {
     box-shadow: 2px 2px 5px #8c8c8c;
 }
