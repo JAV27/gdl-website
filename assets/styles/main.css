@@ -320,7 +320,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     margin-right: 0;
 }
 
-.contactUs .social {
+/* .contactUs .social {
     margin: auto;
     padding: 40px 0;
     text-align: center;
@@ -340,7 +340,35 @@ nav .nav-wrapper ul a.no-hover:hover {
 .contactUs .col {
     display: flex;
     justify-content: flex-end;
+} */
+
+
+.footer {
+    background-color: var(--primary-green);
+    min-height: 300px;
+    text-align: center;
+    padding: 10px;
 }
+
+.footer .row .col img {
+    height: 70px;
+    width: 70px;
+}
+
+.footer .row {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.footer .row .col {
+    margin-top: 25px;
+}
+
+.footer p {
+    color: white;
+    font-size: 22px;
+}
+
 
 .ourStory p, .technology p, .socialGood p, .sponsor p, .palla p {
     margin-top: 50px;
