@@ -965,6 +965,13 @@ a[name="contactform"] {
     display: none;
 }
 
+@media only screen and (max-width: 308px) {
+
+    .fullImageLeague .content h3 {
+        border-bottom: none;
+    }
+    
+}
 
 @media only screen and (max-width: 600px) {
     .container {
@@ -1074,10 +1081,6 @@ a[name="contactform"] {
 
     .fullImageLeague .content p {
         display:none;
-    }
-
-    .fullImageLeague .content h3 {
-        border-bottom: none;
     }
 
     .fullImageLeague .content h3 span {
