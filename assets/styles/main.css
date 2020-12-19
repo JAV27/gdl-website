@@ -108,6 +108,11 @@ nav .nav-wrapper ul a.no-hover:hover {
     font-style: italic;
 }
 
+.fullImageJoin p a {
+    color: white;
+    text-decoration: underline;
+}
+
 .fullImageAboutUs .image, .fullImageFranchise .image {
     text-align: right;
 }
