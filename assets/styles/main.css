@@ -572,7 +572,7 @@ div.mapContainer {
 }
 
 .colorHigh {
-    background-color: #2C6919;
+    background-color:  #00e600;
 }
 
 .colorLow {
@@ -952,6 +952,12 @@ a.readLess {
 .activeFranchises .map {
     width: 80%;
     text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .activeFranchises .map {
+        width: 100%;
+    }
 }
 
 .activeFranchises .map iframe {
