@@ -70,7 +70,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     background: url('/images/backgrounds/aboutus.jpg');
 }
 
-.fullImageLeague {
+.fullImageLeague, .fullImageLeagueLanding {
     background: url('/images/backgrounds/programs.jpg');
 }
 
@@ -117,12 +117,33 @@ nav .nav-wrapper ul a.no-hover:hover {
     text-align: right;
 }
 
+.fullImageLeagueLanding .image {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fullImageLeagueLanding .image img {
+    height: 450px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img.headshot {
+    height: 150px;
+}
+
 .fullImageAboutUs h3, .fullImageFranchise h3 {
     display: inline;
     padding-bottom: 10px;
     border-bottom: 4px solid grey;
     font-weight: bold;
     color: #333;
+}
+
+.fullImageLeagueLanding h3 {
+    border-bottom: 4px solid white;
 }
 
 .fullImageLeague h3, .fullImageJoin h3 {
@@ -829,6 +850,14 @@ div.mapContainer {
     margin-top: 50px;
 }
 
+.joinUsInfo .where img {
+    width: 100%;
+}
+
+.joinUsInfo .where {
+    text-align: center;
+}
+
 .info table {
     box-shadow: 2px 2px 5px #8c8c8c;
 }
@@ -883,6 +912,73 @@ div.mapContainer {
     text-align: center;
 }
 
+.download {
+    background: linear-gradient(45deg, #02af5f, #074c96);
+}
+
+.download.banner {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 10%;
+}
+
+.download .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download .wrap .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.download .container {
+    padding: 50px 0;
+}
+
+.download img.tapin {
+    width: 175px;
+    margin-bottom: 25px;
+}
+
+.download .wrap .content .title {
+    color: white;
+    font-size: 2rem;
+    max-width: 30%;
+}
+
+.download img.QR {
+    width: 100px;
+}
+
+.download .app {
+    display: flex;
+    align-items: center;
+}
+
+.download .app .words p{
+    margin: 0;
+}
+
+.download .app img.app-logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download .app .words .available {
+    display: flex;
+    align-items: center;
+}
+
+.download .app .words > p {
+    font-size: 16px;
+}
 
 
 .row.contactForm {

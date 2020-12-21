@@ -28,7 +28,9 @@
     <%- include('includes/aboutus_sections/download'); %>
 
     <!-- Form -->
-    <%- include('includes/joinus_sections/contactForm'); %>
+    <%- include('includes/joinus_sections/contactForm', {
+        league: 'Regular'
+    }); %>
 
     <!-- Contact Us -->
     <%- include('includes/general/contactUs'); %>

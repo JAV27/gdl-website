@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<%- include('includes/general/head'); %>
+
+<body>
+    
+    <!-- Navigation -->
+    <%- include('includes/general/navbar'); %>
+    
+    <!-- Header -->
+    <%- include('includes/leaguelanding_sections/header', {
+        league: league
+    }); %>
+
+    <!-- Who's it for -->
+    <%- include('includes/joinus_sections/types'); %>
+
+    <!-- Cost -->
+    <%- include('includes/leaguelanding_sections/cost'); %>
+
+    <!-- What's included -->
+    <%- include('includes/joinus_sections/included'); %>
+
+    <!-- Where -->
+    <%- include('includes/leaguelanding_sections/where', {
+        league: league
+    }); %>
+
+    <!-- When -->
+    <%- include('includes/leaguelanding_sections/when'); %>
+
+    <!-- Team -->
+    <!-- <%- include('includes/leaguelanding_sections/team'); %> -->
+
+    <!-- Join -->
+    <%- include('includes/leaguelanding_sections/join'); %>
+
+    <!-- Contact Box -->
+    <%- include('includes/joinus_sections/contactBox'); %>
+
+    <!-- Banner -->
+    <%- include('includes/leaguelanding_sections/banner'); %>
+
+    <!-- Form -->
+    <%- include('includes/joinus_sections/contactForm', {
+        league: league
+    }); %>
+
+    <!-- Contact Us -->
+    <%- include('includes/general/contactUs'); %>
+
+    <!-- jquery functions for materialize -->
+    <%- include('includes/homepage_sections/jquery'); %>
+
+</body>
+</html>
