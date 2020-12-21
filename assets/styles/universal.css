@@ -1,0 +1,65 @@
+/* UNIVERSAL CLASSES */
+
+.darkerGreen {
+    color: var(--darker-green);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container.big {
+    width: 90%;
+    padding: 50px;
+}
+
+.typicalTitle {
+    font-family: var(--header-font);
+    font-weight: bolder;
+    color: #333;
+}
+
+.tapinRed {
+    background-color: #ff7771;
+}
+
+.tapinYellow {
+    background-color: #ffdd69
+}
+
+.tapinBlue {
+    background-color: #64b2ff;
+}
+
+.tapinRed.lighter {
+    background-color: rgba(255, 95, 88, 0.5);
+}
+
+.tapinYellow.lighter {
+    background-color:rgba(243,202,62,.5);
+}
+
+.tapinBlue.lighter {
+    background-color: rgba(51,153,255,.5);
+}
+
+.primaryGreen {
+    color: var(--primary-green);
+}
+
+.tapinBtn {
+    background: linear-gradient( rgba(55, 172, 0, 1), rgba(14, 55, 0, 1) );
+    border-radius: 10px !important;
+    height: 45px;
+    font-style: italic;
+    line-height: 45px;
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+body a {
+    color: black;
+}
+
+/*********************/

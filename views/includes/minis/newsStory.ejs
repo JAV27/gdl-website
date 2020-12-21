@@ -9,6 +9,13 @@
     </div>
     <img src="<%= img %>">
     <div class="content">
+        <%- include(preview) %>
+    </div>
+    <div class="moreContent">
         <%- include(content); %>
+    </div>
+    <div class="row button">
+        <a class="readMore btn waves-effect waves-green tapinBtn">Read More</a>
+        <a class="readLess btn waves-effect waves-green tapinBtn">Read Less</a>
     </div>
 </div>
