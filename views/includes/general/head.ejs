@@ -5,8 +5,10 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-9419YK72S9');
-        gtag('send', 'pageview', location.pathname);
+        gtag('config', 'G-9419YK72S9', {
+            'page_title' : 'hello',
+            'page_path': location.pathname
+        });
 
     </script>
     <meta charset="UTF-8">
