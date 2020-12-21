@@ -43,7 +43,9 @@
     <%- include('includes/leaguelanding_sections/banner'); %>
 
     <!-- Form -->
-    <%- include('includes/joinus_sections/contactForm'); %>
+    <%- include('includes/joinus_sections/contactForm', {
+        league: league
+    }); %>
 
     <!-- Contact Us -->
     <%- include('includes/general/contactUs'); %>
