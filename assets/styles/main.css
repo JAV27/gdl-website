@@ -613,11 +613,8 @@ div.mapContainer {
 }
 
 .types .typesTable img {
-    height: 100px;
-}
-
-.types .typesTable img.team {
-    height: 85px;
+    max-height: 100px;
+    max-width: 100%;
 }
 
 .types .typesTable td {
