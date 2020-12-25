@@ -1,12 +1,25 @@
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="/leagues">GDL HOME</a></li>
+    <li class="divider"></li>
+    <li><a href="/leagues/MA">GDL MA</a></li>
+    <li><a href="/leagues/CT">GDL CT</a></li>
+</ul>
+<ul id="dropdown2" class="dropdown-content">
+    <li><a href="/leagues">GDL HOME</a></li>
+    <li class="divider"></li>
+    <li><a href="/leagues/MA">GDL MA</a></li>
+    <li><a href="/leagues/CT">GDL CT</a></li>
+</ul>
+
 <nav>
     <div class="nav-wrapper">
         <ul class="main center hide-on-small-only">
             <div class="first">
                 <li><a href="/">Home</a></li>
-                <li><a href="/leagues">Programs</a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Programs<i style="width: 12px;" class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a href="/franchise">Franchise</a></li>
             </div>
-            <a href="/" class="no-hover"><img class="logo" src="/images/leagues/logo-draft.png"></a>
+            <a href="/" class="no-hover"><img class="logo" src="/images/leagues/MA.png"></a>
             <div class="second">
                 <li><a href="/joinUs">Join Us</a></li>
                 <li><a href="/aboutus">About Us</a></li>
@@ -19,7 +32,7 @@
 
 <ul class="sidenav" id="mobile-demo">
     <li><a href="/" class="green-text text-darken-3">Home</a></li>
-    <li><a href="/leagues" class="green-text text-darken-3">Programs</a></li>
+    <li><a class="dropdown-trigger green-text text-darken-3" href="#!" data-target="dropdown2">Programs<i class="material-icons right">arrow_drop_down</i></a></li>
     <li><a href="/franchise" class="green-text text-darken-3">Franchise</a></li>
     <li><a href="/joinUs" class="green-text text-darken-3">Join</a></li>
     <li><a href="/aboutus" class="green-text text-darken-3">About Us</a></li>

@@ -1,7 +1,7 @@
 <div class="story section scrollspy" id="story<%= id %>">
     <div class="header">
         <div class="top">
-            <div class="league <%= league %>">GDL <%= league %></div>
+            <a href="/leagues/<%= league %>" style="color: black;"><div class="league <%= league %>">GDL <%= league %></div></a>
             <p class="title bold"><%= title %></p>
             <div class="leagueSmall <%= league %>">GDL <%= league %></div>
         </div>
@@ -9,6 +9,13 @@
     </div>
     <img src="<%= img %>">
     <div class="content">
+        <%- include(preview) %>
+    </div>
+    <div class="moreContent">
         <%- include(content); %>
+    </div>
+    <div class="row button">
+        <a class="readMore btn waves-effect waves-green tapinBtn">Read More</a>
+        <a class="readLess btn waves-effect waves-green tapinBtn">Read Less</a>
     </div>
 </div>

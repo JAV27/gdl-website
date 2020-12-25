@@ -1,8 +1,8 @@
-<a name="contactform">
+<a id="contact_form">
 <div class="container joinUsInfo">
-    <h3>I'm interested...</h3>
+    <h3>Application</h3>
     <div class="row contactForm">
-        <form class="col s12" action="https://formspree.io/xoqklebg" method="POST">
+        <form class="col s12" action="https://formspree.io/mpzooqra" method="POST">
           <div class="row">
             <div class="input-field col s6">
               <input name="first_name" id="first_name" type="text" class="validate">
@@ -79,36 +79,88 @@
               <p>League interested in:  </p>
             </div>
             <div class="col s6">
-              <p>
+              <% if (league == 'MA' || league == 'Regular') { %>
+                <p>
                   <label>
-                    <input name="group2" type="radio" value="Massachusetts" checked />
-                    <span>Massachusetts</span>
+                    <input name="group2" type="radio" value="Marlborough" checked />
+                    <span>Marlborough</span>
                   </label>
                 </p>
                 <p>
                   <label>
-                    <input name="group2" type="radio" value="Maine"/>
-                    <span>Maine</span>
+                    <input name="group2" type="radio" value="Taunton"/>
+                    <span>Taunton</span>
                   </label>
                 </p>
                 <p>
                   <label>
-                    <input name="group2" type="radio"  value="New Hampshire"/>
-                    <span>New Hampshire</span>
+                    <input name="group2" type="radio"  value="Weston"/>
+                    <span>Weston</span>
                   </label>
                 </p>
                 <p>
                   <label>
-                    <input name="group2" type="radio" value="Rhode Island"/>
-                    <span>Rhode Island</span>
+                    <input name="group2" type="radio" value="Weymouth"/>
+                    <span>Weymouth</span>
                   </label>
                 </p>
                 <p>
                   <label>
-                    <input name="group2" type="radio" value="Other"/>
-                    <span>Other</span>
+                    <input name="group2" type="radio" value="Woburn"/>
+                    <span>Woburn</span>
                   </label>
                 </p>
+                <p>
+                  <label>
+                    <input name="group2" type="radio" value="Newton"/>
+                    <span>Newton</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group2" type="radio" value="Ludlow"/>
+                    <span>Ludlow</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group2" type="radio" value="Byfield"/>
+                    <span>Byfield</span>
+                  </label>
+                </p>
+              <% } %>
+              <% if(league == 'CT' || league == 'Regular') {%>
+                <p>
+                  <label>
+                    <input name="group2" type="radio" value="Rocky Hill"/>
+                    <span>Rocky Hill</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group2" type="radio" value="Windsor"/>
+                    <span>Windsor</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group2" type="radio" value="North Branford"/>
+                    <span>North Branford</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group2" type="radio" value="Trumbull"/>
+                    <span>Trumbull</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group2" type="radio" value="Groton"/>
+                    <span>Groton</span>
+                  </label>
+                </p>
+              <% } %>
             </div>
         </div>
         <div class="row button">

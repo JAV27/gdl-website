@@ -70,7 +70,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     background: url('/images/backgrounds/aboutus.jpg');
 }
 
-.fullImageLeague {
+.fullImageLeague, .fullImageLeagueLanding {
     background: url('/images/backgrounds/programs.jpg');
 }
 
@@ -108,8 +108,30 @@ nav .nav-wrapper ul a.no-hover:hover {
     font-style: italic;
 }
 
+.fullImageJoin p a {
+    color: white;
+    text-decoration: underline;
+}
+
 .fullImageAboutUs .image, .fullImageFranchise .image {
     text-align: right;
+}
+
+.fullImageLeagueLanding .image {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fullImageLeagueLanding .image img {
+    height: 450px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img.headshot {
+    height: 150px;
 }
 
 .fullImageAboutUs h3, .fullImageFranchise h3 {
@@ -118,6 +140,10 @@ nav .nav-wrapper ul a.no-hover:hover {
     border-bottom: 4px solid grey;
     font-weight: bold;
     color: #333;
+}
+
+.fullImageLeagueLanding h3 {
+    border-bottom: 4px solid white;
 }
 
 .fullImageLeague h3, .fullImageJoin h3 {
@@ -322,7 +348,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     margin-right: 0;
 }
 
-.contactUs .social {
+/* .contactUs .social {
     margin: auto;
     padding: 40px 0;
     text-align: center;
@@ -342,7 +368,35 @@ nav .nav-wrapper ul a.no-hover:hover {
 .contactUs .col {
     display: flex;
     justify-content: flex-end;
+} */
+
+
+.footer {
+    background-color: var(--primary-green);
+    min-height: 300px;
+    text-align: center;
+    padding: 10px;
 }
+
+.footer .row .col img {
+    height: 70px;
+    width: 70px;
+}
+
+.footer .row {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.footer .row .col {
+    margin-top: 25px;
+}
+
+.footer p {
+    color: white;
+    font-size: 22px;
+}
+
 
 .ourStory p, .technology p, .socialGood p, .sponsor p, .palla p {
     margin-top: 50px;
@@ -541,7 +595,7 @@ div.mapContainer {
 }
 
 .colorHigh {
-    background-color: #2C6919;
+    background-color:  #00e600;
 }
 
 .colorLow {
@@ -561,11 +615,8 @@ div.mapContainer {
 }
 
 .types .typesTable img {
-    height: 100px;
-}
-
-.types .typesTable img.team {
-    height: 85px;
+    max-height: 100px;
+    max-width: 100%;
 }
 
 .types .typesTable td {
@@ -769,6 +820,28 @@ div.mapContainer {
     margin-bottom: 50px;
 }
 
+.townsTable tr.head {
+    background-color: grey;
+}
+
+.townsTable tr.head td {
+    border-radius: 0;
+}
+
+.townsTable tr.images td img {
+    height: 100px;
+}
+
+.townsTable tr.towns {
+    background-color: lightgray;
+}
+
+@media only screen and (max-width: 600px) {
+    div.towns {
+        margin-top: 50px;
+    }
+}
+
 .joinUsInfo h3, .socialGood h3, .technology h3, .ourProgram h3, .ourStory h3, .palla h3 {
     font-size: 28px;
     font-weight: bolder;
@@ -799,6 +872,14 @@ div.mapContainer {
     margin-top: 50px;
 }
 
+.joinUsInfo .where img {
+    width: 100%;
+}
+
+.joinUsInfo .where {
+    text-align: center;
+}
+
 .info table {
     box-shadow: 2px 2px 5px #8c8c8c;
 }
@@ -806,6 +887,13 @@ div.mapContainer {
 .info table td {
     text-align: left;
     padding: 20px 50px;
+}
+
+@media only screen and (max-width:400px) {
+    .info table td {
+        text-align: left;
+        padding: 5px 10px;
+    }
 }
 
 .info table p.bold {
@@ -846,6 +934,73 @@ div.mapContainer {
     text-align: center;
 }
 
+.download {
+    background: linear-gradient(45deg, #02af5f, #074c96);
+}
+
+.download.banner {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 10%;
+}
+
+.download .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download .wrap .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.download .container {
+    padding: 50px 0;
+}
+
+.download img.tapin {
+    width: 175px;
+    margin-bottom: 25px;
+}
+
+.download .wrap .content .title {
+    color: white;
+    font-size: 2rem;
+    max-width: 30%;
+}
+
+.download img.QR {
+    width: 100px;
+}
+
+.download .app {
+    display: flex;
+    align-items: center;
+}
+
+.download .app .words p{
+    margin: 0;
+}
+
+.download .app img.app-logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download .app .words .available {
+    display: flex;
+    align-items: center;
+}
+
+.download .app .words > p {
+    font-size: 16px;
+}
 
 
 .row.contactForm {
@@ -917,6 +1072,12 @@ a.readLess {
     text-align: center;
 }
 
+@media only screen and (max-width: 800px) {
+    .activeFranchises .map {
+        width: 100%;
+    }
+}
+
 .activeFranchises .map iframe {
     width: 80%;
 }
@@ -933,6 +1094,17 @@ a[name="contactform"] {
     display: none;
 }
 
+@media only screen and (max-width: 308px) {
+
+    .fullImageLeague .content h3 {
+        border-bottom: none;
+    }
+    
+ 
+    .fullImageLeague .content h3 span {
+        border-bottom: 2px solid white;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .container {
@@ -1044,14 +1216,6 @@ a[name="contactform"] {
         display:none;
     }
 
-    .fullImageLeague .content h3 {
-        border-bottom: none;
-    }
-
-    .fullImageLeague .content h3 span {
-        border-bottom: 2px solid white;
-    }
-
     .stickers .row .image img {
         height: 250px;
     }
@@ -1150,3 +1314,4 @@ a[name="contactform"] {
         margin-bottom: 50px;
     }
 }
+
