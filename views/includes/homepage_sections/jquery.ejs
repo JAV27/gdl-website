@@ -63,12 +63,6 @@
             checkIfInView($('.whatWeDo .card'), 'bounceInRight', 300, '0')
             checkIfInView($('.ourProgram .program:lt(3)'), 'slideInRight', 300, '0')
             checkIfInView($('.ourProgram .program').slice(3,6), 'slideInLeft', 300, '0')
-            
-            for(let i=0;i<4;i++) {
-                checkIfInView($('.ourLeagues .league').eq(i), 'fadeIn', 300, i*200 + 'ms')
-            }
-
-            checkIfInView($('.news-card'), 'flipInX', 300, '0')
 
         })
 

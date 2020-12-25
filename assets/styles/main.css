@@ -281,11 +281,6 @@ nav .nav-wrapper ul a.no-hover:hover {
     text-align: center;
     margin-top: 50px;
 }
-
-.ourLeagues .league {
-    opacity: 0;
-}
-
 .carousel-wrapper {
     display: flex;
     justify-content: center;
@@ -721,7 +716,6 @@ div.mapContainer {
     align-items: flex-end;
     padding: 15px 15px;
     margin-top: 50px;
-    opacity: 0;
 }
 
 .news-card p.title {
