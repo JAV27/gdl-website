@@ -817,6 +817,28 @@ div.mapContainer {
     margin-bottom: 50px;
 }
 
+.townsTable tr.head {
+    background-color: grey;
+}
+
+.townsTable tr.head td {
+    border-radius: 0;
+}
+
+.townsTable tr.images td img {
+    height: 100px;
+}
+
+.townsTable tr.towns {
+    background-color: lightgray;
+}
+
+@media only screen and (max-width: 600px) {
+    div.towns {
+        margin-top: 50px;
+    }
+}
+
 .joinUsInfo h3, .socialGood h3, .technology h3, .ourProgram h3, .ourStory h3, .palla h3 {
     font-size: 28px;
     font-weight: bolder;
