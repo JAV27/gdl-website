@@ -9,14 +9,18 @@
     });
 
     const checkIfInView = (el, anim, offset, delay) => {
-        var top_of_element = el.offset().top;
-        var bottom_of_element = el.offset().top + el.outerHeight();
-        var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
-        var top_of_screen = $(window).scrollTop();
 
-        if ((bottom_of_screen > top_of_element + offset) && (top_of_screen < bottom_of_element)){
-            el.addClass('animate__animated').css('animation-delay', delay.toString()).addClass('animate__' + anim).css('opacity', '1')
+        if(el.length > 0) {
+            var top_of_element = el.offset().top;
+            var bottom_of_element = el.offset().top + el.outerHeight();
+            var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+            var top_of_screen = $(window).scrollTop();
+
+            if ((bottom_of_screen > top_of_element + offset) && (top_of_screen < bottom_of_element)){
+                el.addClass('animate__animated').css('animation-delay', delay.toString()).addClass('animate__' + anim).css('opacity', '1')
+            }
         }
+
     }   
     
     $(document).ready(function(){
@@ -43,23 +47,6 @@
 
         $(window).scroll(function() {
 
-            // let scroll = $(window).scrollTop()
-
-            // if (scroll > 300) {
-            //     $('.whatWeDo .card').addClass('animate__animated').addClass('animate__bounceInRight').css('opacity', '1')
-            // }
-
-            // if (scroll > 1000) {
-            //     $('.ourProgram .program:lt(3)').addClass('animate__animated').addClass('animate__slideInRight').css('opacity', '1')
-            //     $('.ourProgram .program').slice(3,6).addClass('animate__animated').addClass('animate__slideInLeft').css('opacity', '1')
-            // }
-
-            // if (scroll > 6400) { 
-            //     $('.partner-container').addClass('animate__animated').addClass('animate__backInUp').css('opacity', '1')
-            // }
-
-            // console.log(scroll)
-
             checkIfInView($('.whatWeDo .card'), 'bounceInRight', 300, '0')
             checkIfInView($('.ourProgram .program:lt(3)'), 'slideInRight', 300, '0')
             checkIfInView($('.ourProgram .program').slice(3,6), 'slideInLeft', 300, '0')
@@ -67,10 +54,5 @@
         })
 
     });
-
-
-    
-
-    
 
 </script>
