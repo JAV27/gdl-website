@@ -830,6 +830,10 @@ div.mapContainer {
     background-color: lightgray;
 }
 
+tr.towns ul li {
+    opacity: 0;
+}
+
 @media only screen and (max-width: 600px) {
     div.towns {
         margin-top: 50px;

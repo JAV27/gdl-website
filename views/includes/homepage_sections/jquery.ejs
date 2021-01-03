@@ -51,6 +51,17 @@
             checkIfInView($('.ourProgram .program:lt(3)'), 'slideInRight', 300, '0')
             checkIfInView($('.ourProgram .program').slice(3,6), 'slideInLeft', 300, '0')
 
+            let massTowns = $('tr.towns td:eq(0) ul li').length;
+            let connTowns = $('tr.towns td:eq(1) ul li').length;
+
+            for(let i=0;i<massTowns;i++) {
+                checkIfInView($('tr.towns td:eq(0) ul li').eq(i), 'fadeIn', -100, i*150 + 'ms');
+            }
+
+            for(let i=0;i<connTowns;i++) {
+                checkIfInView($('tr.towns td:eq(1) ul li').eq(i), 'fadeIn', -100, i*150 + 'ms');
+            }
+
         })
 
     });
