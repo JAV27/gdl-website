@@ -161,7 +161,8 @@ nav .nav-wrapper ul a.no-hover:hover {
 }
 
 .fullImage .container a {
-    width: 10rem;
+    /* width: 10rem; */
+    font-size: 14px;
 }
 
 .whatWeDo, .ourProgram, .news {
