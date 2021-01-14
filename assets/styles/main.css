@@ -211,7 +211,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     max-height: 345px;
 }
 
-.ourProgramHome .container, .ourLeagues .container, .testimonials .container, .partners .container, .playerCards .container.big {
+.ourProgramHome .container, .testimonials .container, .partners .container, .playerCards .container.big {
     width: 100%;
 }
 
@@ -301,7 +301,7 @@ nav .nav-wrapper ul a.no-hover:hover {
 } 
 
 .partners-logo {
-    height: 150px;
+    height: 100px;
 }
 
 .partners .row .btn {
