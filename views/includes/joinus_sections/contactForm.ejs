@@ -26,142 +26,56 @@
             </div>
           </div>
           <div class="row">
+            <div class="input-field col s12">
+              <input name="last_name" id="last_name" type="text" class="validate">
+              <label for="last_name">Organization Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s6">
+              <p>Member league: </p>
+            </div>
+            <div class="col s6">
+              <p>
+                <label>
+                  <input name="League" type="radio" checked value="NECSL"/>
+                  <span>NECSL</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input name="League" type="radio" value="Other"/>
+                  <span>Other</span>
+                </label>
+              </p>
+            </div>
+          </div>
+          <div class="row">
               <div class="col s6">
                 <p>I am a: </p>
               </div>
               <div class="col s6">
                 <p>
-                    <label>
-                      <input name="group1" type="radio" checked value="Club Organization"/>
-                      <span>Club Organization</span>
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      <input name="group1" type="radio" value="Town Organization"/>
-                      <span>Town Organization</span>
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      <input name="group1" type="radio"  value="Coach"/>
-                      <span>Coach</span>
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      <input name="group1" type="radio" value="Player/Parent"/>
-                      <span>Player/Parent</span>
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      <input name="group1" type="radio" value="Referee"/>
-                      <span>Referee</span>
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      <input name="group1" type="radio" value="Corporate Sponsor"/>
-                      <span>Corporate Sponsor</span>
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      <input name="group1" type="radio" value="Prospective"/>
-                      <span>Prospective Franchise</span>
-                    </label>
-                  </p>
+                  <label>
+                    <input name="I_am" type="radio" checked value="Club"/>
+                    <span>Club</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="I_am" type="radio" value="Town/Rec"/>
+                    <span>Town/Rec Program</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="I_am" type="radio" value="Other"/>
+                    <span>Other</span>
+                  </label>
+                </p>
+                  
               </div>
           </div>
-          <div class="row">
-            <div class="col s6">
-              <p>League interested in:  </p>
-            </div>
-            <div class="col s6">
-              <% if (league == 'MA' || league == 'Regular') { %>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Marlborough" checked />
-                    <span>Marlborough</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Taunton"/>
-                    <span>Taunton</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio"  value="Weston"/>
-                    <span>Weston</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Weymouth"/>
-                    <span>Weymouth</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Woburn"/>
-                    <span>Woburn</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Newton"/>
-                    <span>Newton</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Ludlow"/>
-                    <span>Ludlow</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Byfield"/>
-                    <span>Byfield</span>
-                  </label>
-                </p>
-              <% } %>
-              <% if(league == 'CT' || league == 'Regular') {%>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Rocky Hill"/>
-                    <span>Rocky Hill</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Windsor"/>
-                    <span>Windsor</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="North Branford"/>
-                    <span>North Branford</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Trumbull"/>
-                    <span>Trumbull</span>
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input name="group2" type="radio" value="Groton"/>
-                    <span>Groton</span>
-                  </label>
-                </p>
-              <% } %>
-            </div>
         </div>
         <div class="row button">
           <button class="btn waves-effect waves-light green hoverable tapinBtn">Submit</button>
