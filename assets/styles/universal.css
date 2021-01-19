@@ -14,8 +14,7 @@
 }
 
 .typicalTitle {
-    font-family: var(--header-font);
-    font-weight: bolder;
+    font-family: var(--bold-font);
     color: #333;
 }
 

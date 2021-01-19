@@ -6,6 +6,7 @@
 
 body {
     font-weight: 400;
+    font-family: var(--main-font);
 }
 
 html, body {
@@ -62,6 +63,7 @@ nav .nav-wrapper ul a.no-hover:hover {
 .fullImage p {
     font-weight: 700;
     font-size: 3rem;
+    font-family: var(--bold-font);
 }
 
 .fullImageAboutUs {
@@ -104,6 +106,7 @@ nav .nav-wrapper ul a.no-hover:hover {
     margin-top: 50px;
     font-size: 20px;
     font-style: italic;
+    font-family: var(--secondary-font);
 }
 
 .fullImageJoin p a {
@@ -267,6 +270,7 @@ nav .nav-wrapper ul a.no-hover:hover {
 
 .ourProgram .program .info {
     text-align: center;
+    font-family: var(--secondary-font);
 }
 
 .row.button {
@@ -327,8 +331,13 @@ nav .nav-wrapper ul a.no-hover:hover {
     flex-direction: column;
     align-items: center;
 }
+
 .whatWeDo .card-content span {
     margin-top: 10px;
+}
+
+.whatWeDo .card-content p {
+    font-family: var(--secondary-font);
 }
 
 .contactUs {
@@ -517,8 +526,17 @@ ul.indicators {
     min-height: 560px;
 }
 
+.testimonial-card .content {
+    font-family: var(--secondary-font);
+}
+
 .testimonial-card .title {
     min-height: 50px;
+    font-family: var(--bold-font);
+}
+
+.testimonial-card .name {
+    font-family: var(--bold-font);
 }
 
 .testimonial-card .pic {
@@ -667,6 +685,14 @@ div.mapContainer {
 
 .optionsTableMobile img {
     height: 100px;
+}
+
+.optionsTable tr.lighten-1, .optionsTableMobile tr.lighten-1 {
+    font-family: var(--bold-font);
+}
+
+.optionsTable tr.lighten-5, .optionsTableMobile tr.lighten-5 {
+    font-family: var(--secondary-font);
 }
 
 @media only screen and (max-width: 500px) {
@@ -840,13 +866,18 @@ div.mapContainer {
 
 .joinUsInfo h3, .socialGood h3, .technology h3, .ourProgram h3, .ourStory h3, .palla h3, .stickers h3 {
     font-size: 28px;
-    font-weight: bolder;
+    font-family: var(--bold-font);
 }
 
 .stickers p.blurb {
     font-size: 18px;
     text-align: center;
+    font-family: var(--secondary-font);
     margin-top: 50px;
+}
+
+.stickers table {
+    font-family: var(--bold-font);
 }
 
 .joinUsInfo form.col {
@@ -872,7 +903,7 @@ div.included img {
 }
 
 div.included p {
-    font-weight: bold;
+    font-family: united-bold;
 }
 
 .row.noMargin {
@@ -958,7 +989,7 @@ div.included p {
 
 .download.banner {
     font-size: 24px;
-    font-weight: bold;
+    font-family: var(--bold-font);
     padding: 0 10%;
 }
 
