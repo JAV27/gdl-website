@@ -67,4 +67,9 @@ body a {
     src: url("/fonts/united-medium.otf") format("opentype");
 }
 
+@font-face {
+    font-family: united-bold;
+    src: url("/fonts/united-bold.otf") format("opentype");
+}
+
 /*********************/

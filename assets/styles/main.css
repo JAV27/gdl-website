@@ -5,7 +5,6 @@
 @import "download.css";
 
 body {
-    font-family: var(--header-font);
     font-weight: 400;
 }
 
@@ -61,10 +60,8 @@ nav .nav-wrapper ul a.no-hover:hover {
 }
 
 .fullImage p {
-    /* font-style: italic; */
     font-weight: 700;
     font-size: 3rem;
-    font-family: united;
 }
 
 .fullImageAboutUs {
@@ -622,7 +619,6 @@ div.mapContainer {
 
 .types .typesTable td {
     border: 1px solid lightgrey;
-    font-family: var(--header-font);
     font-weight: 300;
 }
 
@@ -845,7 +841,6 @@ div.mapContainer {
 .joinUsInfo h3, .socialGood h3, .technology h3, .ourProgram h3, .ourStory h3, .palla h3, .stickers h3 {
     font-size: 28px;
     font-weight: bolder;
-    font-family: 'Roboto';
 }
 
 .stickers p.blurb {
@@ -922,7 +917,6 @@ div.included p {
 
 .info table p.bold {
     font-size: 24px;
-    font-family: var(--header-font);
 }
 
 .info .pdf {
