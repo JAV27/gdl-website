@@ -865,6 +865,24 @@ div.mapContainer {
     border-radius: 10px;
 }
 
+div.included {
+    text-align: center;
+    margin-top: 100px;
+}
+
+div.included img {
+    height: 125px;
+    max-width: 125px;
+}
+
+div.included p {
+    font-weight: bold;
+}
+
+.row.noMargin {
+    margin-top: 0;
+}
+
 .joinUsInfo .league {
     text-align: center;
 }
