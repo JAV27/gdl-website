@@ -404,14 +404,22 @@ nav .nav-wrapper ul a.no-hover:hover {
     font-size: 22px;
 }
 
-
 .ourStory p, .technology p, .socialGood p, .sponsor p, .palla p {
     margin-top: 50px;
     font-size: 18px;
 }
 
+.ourStory {
+    font-family: var(--secondary-font);
+}
+
+.technology p {
+    font-family: var(--secondary-font);
+}
+
 .socialGood {
     margin-top: 50px;
+    font-family: var(--secondary-font);
 }
 
 li a i.right {
@@ -433,6 +441,7 @@ li a i.right {
 
 .palla {
     margin-top: 50px;
+    font-family: var(--secondary-font);
 }
 
 .technology p {
@@ -482,12 +491,17 @@ li a i.right {
     width: 100%;
 }
 
+.ourTeam .description {
+    font-family: var(--secondary-font);
+}
+
 .ourTeam .person {
     text-align: center;
 }
 
 .ourTeam .person .name {
     font-size: 20px;
+    font-family: var(--bold-font);
 }
 
 .ourTeam .person .title {
@@ -648,6 +662,22 @@ div.mapContainer {
     font-weight: 500;
 }
 
+.typesTableMobile tbody tr:nth-of-type(2n) {
+    font-family: var(--secondary-font);
+}
+
+.typesTableMobile tbody tr:nth-of-type(2n-1) {
+    font-family: var(--bold-font);
+}
+
+.typesTable tr.headers {
+    font-family: var(--bold-font);
+}
+
+.typesTable tr.descriptions {
+    font-family: var(--secondary-font);
+}
+
 .optionsTable {
     margin-top: 50px;
 }
@@ -781,6 +811,7 @@ div.mapContainer {
     display: flex;
     flex-direction: column;
     margin-bottom: 200px;
+    font-family: var(--secondary-font);
 }
 
 .story img {
@@ -930,6 +961,22 @@ div.included p {
     text-align: center;
 }
 
+div.info {
+    font-family: var(--secondary-font);
+}
+
+table.when {
+    margin-top: 50px;
+}
+
+table.when tbody tr td:nth-child(1) {
+    font-family: var(--bold-font);
+}
+
+table.when tbody tr td:nth-child(2) {
+    font-family: var(--secondary-font);
+}
+
 .info table {
     box-shadow: 2px 2px 5px #8c8c8c;
 }
@@ -1056,6 +1103,9 @@ div.included p {
     margin-top: 0;
 }
 
+.sponsor .row {
+    font-family: var(--secondary-font);
+}
 .sponsor .tapinBtn {
     font-weight: normal;
     border-radius: 10px;
