@@ -62,4 +62,9 @@ body a {
     color: black;
 }
 
+@font-face {
+    font-family: united;
+    src: url("/fonts/united-medium.otf") format("opentype");
+}
+
 /*********************/
