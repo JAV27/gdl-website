@@ -63,7 +63,7 @@ nav .nav-wrapper ul a.no-hover:hover {
 .fullImage p {
     font-style: italic;
     font-weight: 700;
-    font-size: 2.25rem;
+    font-size: 3rem;
 }
 
 .fullImageAboutUs {
@@ -163,6 +163,7 @@ nav .nav-wrapper ul a.no-hover:hover {
 .fullImage .container a {
     /* width: 10rem; */
     font-size: 14px;
+    margin-top: 50px;
 }
 
 .whatWeDo, .ourProgram, .news {
