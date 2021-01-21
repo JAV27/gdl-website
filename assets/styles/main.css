@@ -900,7 +900,7 @@ div.mapContainer {
     }
 }
 
-.joinUsInfo h3, .socialGood h3, .technology h3, .ourProgram h3, .ourStory h3, .palla h3, .stickers h3 {
+.joinUsInfo h3, .socialGood h3, .technology h3, .ourProgram h3, .ourStory h3, .palla h3, .stickers h3, .whatWeDo h3 {
     font-size: 28px;
     font-family: var(--bold-font);
 }
