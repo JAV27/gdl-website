@@ -188,6 +188,11 @@ nav .nav-wrapper ul a.no-hover:hover {
     padding-top:10px;
 }
 
+.whatWeDo .card ul li {
+    list-style-type: disc;
+    color: white;
+}
+
 .whatWeDo .card#one {
     background: linear-gradient(180deg, #008738, #81D49D );
 }
