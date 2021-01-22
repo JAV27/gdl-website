@@ -765,7 +765,7 @@ div.mapContainer {
 }
 
 .news .row a:nth-child(3) .news-card {
-    background: linear-gradient( rgba(255, 255, 255, .3), rgba(0, 0, 0, 0.7) ), url('/images/news/news3.png') no-repeat center/cover;
+    background: linear-gradient( rgba(255, 255, 255, .3), rgba(0, 0, 0, 0.7) ), url('/images/news/news3.JPG') no-repeat center/cover;
 }
 
 .news-card {
