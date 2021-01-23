@@ -14,8 +14,7 @@
 }
 
 .typicalTitle {
-    font-family: var(--header-font);
-    font-weight: bolder;
+    font-family: var(--bold-font);
     color: #333;
 }
 
@@ -60,6 +59,16 @@
 
 body a {
     color: black;
+}
+
+@font-face {
+    font-family: united;
+    src: url("/fonts/united-medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: united-bold;
+    src: url("/fonts/united-bold.otf") format("opentype");
 }
 
 /*********************/
