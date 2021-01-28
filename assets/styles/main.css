@@ -167,10 +167,6 @@ nav .nav-wrapper ul a.no-hover:hover {
     font-size: 14px;
 }
 
-.container p:nth-of-type(3) {
-    font-size: 30px;
-}
-
 @media only screen and (max-width: 500px) {
     .container p.center-align:first-of-type{
         font-size: 28px;
